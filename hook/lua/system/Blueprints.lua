@@ -41,6 +41,20 @@ function ModBlueprints(all_blueprints)
         }
     end
 
+    -- UEF T3 SAM Launcher
+    -- Different RackBones
+    local unit = all_blueprints.Unit['ueb2304']
+    if unit and unit.Weapon and unit.Weapon[1] and unit.Weapon[1].RackBones then
+        unit.Weapon[1].RackBones = {
+            { MuzzleBones = { "Turret_Muzzle_Left01" }, RackBone = "Turret_Barrel" },
+            { MuzzleBones = { "Turret_Muzzle_Right01" }, RackBone = "Turret_Barrel" },
+            { MuzzleBones = { "Turret_Muzzle_Left02" }, RackBone = "Turret_Barrel" },
+            { MuzzleBones = { "Turret_Muzzle_Right02" }, RackBone = "Turret_Barrel" },
+            { MuzzleBones = { "Turret_Muzzle_Left03" }, RackBone = "Turret_Barrel" },
+            { MuzzleBones = { "Turret_Muzzle_Right03" }, RackBone = "Turret_Barrel" }
+        }
+    end
+
     -- now we loop over every UNIT blueprint
     for id,bp in all_blueprints.Unit do
         -- id = init ID. example: url0103

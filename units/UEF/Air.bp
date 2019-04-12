@@ -21,19 +21,6 @@ UnitBlueprint {
         StartTurnDistance = 5
     },
     BlueprintId = "uea0001",
-    Categories = {
-        "SELECTABLE",
-        "UEF",
-        "MOBILE",
-        "AIR",
-        "TECH1",
-        "POD",
-        "REPAIR",
-        "RECLAIM",
-        "ENGINEER",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Light", Health = 6, MaxHealth = 6, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 1600,
@@ -109,21 +96,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 1 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 1 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1FACTORY",
-        "BUILTBYTIER2FACTORY",
-        "BUILTBYTIER3FACTORY",
-        "UEF",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH1",
-        "INTELLIGENCE",
-        "SCOUT",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
     },
     Defense = { ArmorType = "Light", Health = 5, MaxHealth = 5, RegenRate = 0 },
     Economy = { BuildCostEnergy = 640, BuildCostMass = 16, BuildTime = 160 },
@@ -209,20 +181,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 5 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 5 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1FACTORY",
-        "BUILTBYTIER2FACTORY",
-        "BUILTBYTIER3FACTORY",
-        "UEF",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH1",
-        "ANTIAIR",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
     },
     Defense = { ArmorType = "Light", Health = 20, MaxHealth = 20, RegenRate = 0 },
     Economy = { BuildCostEnergy = 2280, BuildCostMass = 38, BuildTime = 380 },
@@ -360,21 +318,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 5 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
     },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1FACTORY",
-        "BUILTBYTIER2FACTORY",
-        "BUILTBYTIER3FACTORY",
-        "UEF",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH1",
-        "BOMBER",
-        "VISIBLETORECON",
-        "RECLAIMABLE",
-        "SHOWATTACKRETICLE"
-    },
     Defense = { ArmorType = "Light", Health = 20, MaxHealth = 20, RegenRate = 0 },
     Economy = { BuildCostEnergy = 2880, BuildCostMass = 144, BuildTime = 480 },
     Intel = { VisionRadius = 32 },
@@ -507,20 +450,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 53 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 53 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "TRANSPORTBUILTBYTIER2FACTORY",
-        "TRANSPORTBUILTBYTIER3FACTORY",
-        "UEF",
-        "MOBILE",
-        "AIR",
-        "TECH2",
-        "TRANSPORTATION",
-        "CANTRANSPORTCOMMANDER",
-        "VISIBLETORECON",
-        "RECLAIMABLE",
-        "TRANSPORTFOCUS"
     },
     Defense = { ArmorType = "Light", Health = 210, MaxHealth = 210, RegenRate = 0 },
     Economy = { BuildCostEnergy = 12800, BuildCostMass = 320, BuildTime = 1600 },
@@ -866,21 +795,6 @@ UnitBlueprint {
         },
     },
     Merge = true,
-    Categories = {
-        "SELECTABLE",
-        "UEF",
-        "MOBILE",
-        "AIR",
-        "TECH1",
-        "TRANSPORTATION",
-        "TRANSPORTBUILTBYTIER1FACTORY",
-        "TRANSPORTBUILTBYTIER2FACTORY",
-        "TRANSPORTBUILTBYTIER3FACTORY",
-        "VISIBLETORECON",
-        "RECLAIMABLE",
-        "TRANSPORTFOCUS",
-        "CANTRANSPORTCOMMANDER"
-    },
     Defense = {
         ArmorType = 'Light',
         Health = 90,
@@ -947,19 +861,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 30 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 30 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2FACTORY",
-        "BUILTBYTIER3FACTORY",
-        "UEF",
-        "MOBILE",
-        "AIR",
-        "TECH2",
-        "GROUNDATTACK",
-        "TRANSPORTATION",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
     },
     Defense = { ArmorType = "Light", Health = 120, MaxHealth = 120, RegenRate = 0 },
     Economy = { BuildCostEnergy = 8640, BuildCostMass = 432, BuildTime = 1440 },
@@ -1091,20 +992,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 33 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
     },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2FACTORY",
-        "BUILTBYTIER3FACTORY",
-        "UEF",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH2",
-        "ANTINAVY",
-        "BOMBER",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Light", Health = 130, MaxHealth = 130, RegenRate = 0 },
     Economy = { BuildCostEnergy = 6300, BuildCostMass = 600, BuildTime = 1000 },
     Intel = { SonarRadius = 40, VisionRadius = 32 },
@@ -1231,20 +1118,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 8 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
     },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3FACTORY",
-        "UEF",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH3",
-        "INTELLIGENCE",
-        "RADAR",
-        "SONAR",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Light", Health = 30, MaxHealth = 30, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 2240,
@@ -1332,18 +1205,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 63 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 63 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3FACTORY",
-        "UEF",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH3",
-        "ANTIAIR",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
     },
     Defense = { ArmorType = "Light", Health = 250, MaxHealth = 250, RegenRate = 0 },
     Economy = { BuildCostEnergy = 24000, BuildCostMass = 360, BuildTime = 3600 },
@@ -1545,20 +1406,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 38 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 38 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3FACTORY",
-        "UEF",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH3",
-        "BOMBER",
-        "NUKE",
-        "VISIBLETORECON",
-        "RECLAIMABLE",
-        "SHOWATTACKRETICLE"
     },
     Defense = { ArmorType = "Light", Health = 150, MaxHealth = 150, RegenRate = 0 },
     Economy = { BuildCostEnergy = 72000, BuildCostMass = 2160, BuildTime = 7200 },
@@ -1804,17 +1651,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 119 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 119 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3FACTORY",
-        "UEF",
-        "MOBILE",
-        "AIR",
-        "TECH3",
-        "GROUNDATTACK",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
     },
     Defense = { ArmorType = "Light", Health = 475, MaxHealth = 475, RegenRate = 0 },
     Economy = { BuildCostEnergy = 22500, BuildCostMass = 2100, BuildTime = 4500 },

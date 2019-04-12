@@ -8,23 +8,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = 'HEALTH', Value = 530 },
         { Add = { VeteranLevel5 = true }, BuffType = 'HEALTHREGENRATE', Value = 3 }
     },
-    Categories = {
-        'SELECTABLE',
-        'BUILTBYTIER1FACTORY',
-        'BUILTBYTIER2FACTORY',
-        'BUILTBYTIER3FACTORY',
-        'UEF',
-        'MOBILE',
-        'NAVAL',
-        'TECH1',
-        'DIRECTFIRE',
-        'INTELLIGENCE',
-        'COUNTERINTELLIGENCE',
-        'RADAR',
-        'SONAR',
-        'VISIBLETORECON',
-        'RECLAIMABLE'
-    },
     Defense = { ArmorType = 'Normal', Health = 2120, MaxHealth = 2120, RegenRate = 0 },
     Economy = { BuildCostEnergy = 2800, BuildCostMass = 280, BuildTime = 700 },
     Footprint = { SizeX = 2, SizeZ = 6 },
@@ -210,19 +193,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = 'MAXHEALTH', Value = 1800 },
         { Add = { VeteranLevel4 = true }, BuffType = 'HEALTH', Value = 1800 },
         { Add = { VeteranLevel5 = true }, BuffType = 'HEALTHREGENRATE', Value = 3 }
-    },
-    Categories = {
-        'SELECTABLE',
-        'BUILTBYTIER2FACTORY',
-        'BUILTBYTIER3FACTORY',
-        'UEF',
-        'MOBILE',
-        'NAVAL',
-        'TECH2',
-        'ANTISUB',
-        'DIRECTFIRE',
-        'VISIBLETORECON',
-        'RECLAIMABLE'
     },
     Defense = { ArmorType = 'Normal', Health = 7200, MaxHealth = 7200, RegenRate = 0 },
     Economy = { BuildCostEnergy = 15000, BuildCostMass = 2500, BuildTime = 5000 },
@@ -615,21 +585,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = 'HEALTH', Value = 875 },
         { Add = { VeteranLevel5 = true }, BuffType = 'HEALTHREGENRATE', Value = 3 }
     },
-    Categories = {
-        'SELECTABLE',
-        'BUILTBYTIER2FACTORY',
-        'BUILTBYTIER3FACTORY',
-        'UEF',
-        'MOBILE',
-        'NAVAL',
-        'TECH2',
-        'ANTIAIR',
-        'INDIRECTFIRE',
-        'SILO',
-        'VISIBLETORECON',
-        'RECLAIMABLE',
-        'SHOWATTACKRETICLE'
-    },
     Defense = { ArmorType = 'Normal', Health = 3500, MaxHealth = 3500, RegenRate = 0 },
     Display = {
         Abilities = {
@@ -934,20 +889,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = 'HEALTH', Value = 313 },
         { Add = { VeteranLevel5 = true }, BuffType = 'HEALTHREGENRATE', Value = 3 }
     },
-    Categories = {
-        'SELECTABLE',
-        'BUILTBYTIER1FACTORY',
-        'BUILTBYTIER2FACTORY',
-        'BUILTBYTIER3FACTORY',
-        'UEF',
-        'MOBILE',
-        'NAVAL',
-        'TECH1',
-        'ANTINAVY',
-        'SUBMERSIBLE',
-        'VISIBLETORECON',
-        'RECLAIMABLE'
-    },
     Defense = { ArmorType = 'Normal', Health = 1250, MaxHealth = 1250, RegenRate = 0 },
     Economy = { BuildCostEnergy = 2000, BuildCostMass = 600, BuildTime = 1000 },
     Footprint = { SizeX = 2, SizeY = 0.5, SizeZ = 3 },
@@ -1109,19 +1050,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = 'MAXHEALTH', Value = 15000 },
         { Add = { VeteranLevel4 = true }, BuffType = 'HEALTH', Value = 15000 },
         { Add = { VeteranLevel5 = true }, BuffType = 'HEALTHREGENRATE', Value = 3 }
-    },
-    Categories = {
-        'SELECTABLE',
-        'BUILTBYTIER3FACTORY',
-        'UEF',
-        'MOBILE',
-        'NAVAL',
-        'TECH3',
-        'DIRECTFIRE',
-        'ANTIMISSILE',
-        'VISIBLETORECON',
-        'RECLAIMABLE',
-        'SHOWATTACKRETICLE'
     },
     Defense = { ArmorType = 'Normal', Health = 60000, MaxHealth = 60000, RegenRate = 0 },
     Economy = { BuildCostEnergy = 160000, BuildCostMass = 20000, BuildTime = 24000 },
@@ -1770,21 +1698,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = 'HEALTH', Value = 1000 },
         { Add = { VeteranLevel5 = true }, BuffType = 'HEALTHREGENRATE', Value = 3 }
     },
-    Categories = {
-        'SELECTABLE',
-        'BUILTBYTIER3FACTORY',
-        'UEF',
-        'MOBILE',
-        'NAVAL',
-        'TECH3',
-        'SUBMERSIBLE',
-        'INDIRECTFIRE',
-        'NUKE',
-        'SILO',
-        'VISIBLETORECON',
-        'RECLAIMABLE',
-        'SHOWATTACKRETICLE'
-    },
     Defense = { ArmorType = 'Normal', Health = 4000, MaxHealth = 4000, RegenRate = 0 },
     Economy = { BuildCostEnergy = 60000, BuildCostMass = 10000, BuildRate = 1.25, BuildTime = 15000 },
     Footprint = { SizeX = 2, SizeY = 0.7, SizeZ = 5 },
@@ -1942,19 +1855,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = 'HEALTH', Value = 875 },
         { Add = { VeteranLevel5 = true }, BuffType = 'HEALTHREGENRATE', Value = 3 }
     },
-    Categories = {
-        'SELECTABLE',
-        'BUILTBYTIER3ENGINEER',
-        'BUILTBYTIER3COMMANDER',
-        'UEF',
-        'MOBILE',
-        'INTELLIGENCE',
-        'TECH3',
-        'SONAR',
-        'NEEDMOBILEBUILD',
-        'VISIBLETORECON',
-        'RECLAIMABLE'
-    },
     Defense = { ArmorType = 'Normal', Health = 2000, MaxHealth = 2000, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 6000,
@@ -2073,26 +1973,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = 'MAXHEALTH', Value = 10000 },
         { Add = { VeteranLevel4 = true }, BuffType = 'HEALTH', Value = 10000 },
         { Add = { VeteranLevel5 = true }, BuffType = 'HEALTHREGENRATE', Value = 3 }
-    },
-    Categories = {
-        'SELECTABLE',
-        'BUILTBYTIER3COMMANDER',
-        'BUILTBYTIER3ENGINEER',
-        'UEF',
-        'MOBILE',
-        'NAVAL',
-        'EXPERIMENTAL',
-        'SUBMERSIBLE',
-        'AIRSTAGINGPLATFORM',
-        'INTELLIGENCE',
-        'RADAR',
-        'REPAIR',
-        'CARRIER',
-        'NEEDMOBILEBUILD',
-        'VISIBLETORECON',
-        'RECLAIMABLE',
-        'DRAGBUILD',
-        'FACTORY'
     },
     Defense = { ArmorType = 'Normal', Health = 40000, MaxHealth = 40000, RegenRate = 0 },
     Economy = {

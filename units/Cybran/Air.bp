@@ -30,21 +30,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 1 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
     },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1FACTORY",
-        "BUILTBYTIER2FACTORY",
-        "BUILTBYTIER3FACTORY",
-        "CYBRAN",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH1",
-        "INTELLIGENCE",
-        "SCOUT",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Light", Health = 3, MaxHealth = 3, RegenRate = 0 },
     Economy = { BuildCostEnergy = 600, BuildCostMass = 12, BuildTime = 140 },
     Intel = { VisionRadius = 80 },
@@ -130,20 +115,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 4 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 4 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1FACTORY",
-        "BUILTBYTIER2FACTORY",
-        "BUILTBYTIER3FACTORY",
-        "CYBRAN",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH1",
-        "ANTIAIR",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
     },
     Defense = { ArmorType = "Light", Health = 16, MaxHealth = 16, RegenRate = 0 },
     Economy = { BuildCostEnergy = 2280, BuildCostMass = 38, BuildTime = 380 },
@@ -366,21 +337,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 4 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
     },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1FACTORY",
-        "BUILTBYTIER2FACTORY",
-        "BUILTBYTIER3FACTORY",
-        "CYBRAN",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH1",
-        "BOMBER",
-        "VISIBLETORECON",
-        "RECLAIMABLE",
-        "SHOWATTACKRETICLE"
-    },
     Defense = { ArmorType = "Light", Health = 19, MaxHealth = 19, RegenRate = 0 },
     Economy = { BuildCostEnergy = 3420, BuildCostMass = 171, BuildTime = 570 },
     Intel = { VisionRadius = 32 },
@@ -529,20 +485,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 53 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 53 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "CYBRAN",
-        "MOBILE",
-        "AIR",
-        "TECH2",
-        "TRANSPORTATION",
-        "CANTRANSPORTCOMMANDER",
-        "TRANSPORTBUILTBYTIER2FACTORY",
-        "TRANSPORTBUILTBYTIER3FACTORY",
-        "VISIBLETORECON",
-        "RECLAIMABLE",
-        "TRANSPORTFOCUS"
     },
     Defense = { ArmorType = "Light", Health = 210, MaxHealth = 210, RegenRate = 0 },
     Economy = { BuildCostEnergy = 12800, BuildCostMass = 320, BuildTime = 1600 },
@@ -746,21 +688,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 23 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
     },
-    Categories = {
-        "SELECTABLE",
-        "CYBRAN",
-        "MOBILE",
-        "AIR",
-        "TECH1",
-        "TRANSPORTATION",
-        "TRANSPORTBUILTBYTIER1FACTORY",
-        "TRANSPORTBUILTBYTIER2FACTORY",
-        "TRANSPORTBUILTBYTIER3FACTORY",
-        "VISIBLETORECON",
-        "RECLAIMABLE",
-        "TRANSPORTFOCUS",
-        "CANTRANSPORTCOMMANDER"
-    },
     Defense = { ArmorType = "Light", Health = 90, MaxHealth = 90, RegenRate = 0 },
     Economy = { BuildCostEnergy = 4800, BuildCostMass = 120, BuildTime = 600 },
     Footprint = { MaxSlope = 0.25, SizeX = 1, SizeZ = 4 },
@@ -815,20 +742,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 30 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 30 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2FACTORY",
-        "BUILTBYTIER3FACTORY",
-        "CYBRAN",
-        "MOBILE",
-        "AIR",
-        "TECH2",
-        "GROUNDATTACK",
-        "ANTIAIR",
-        "VISIBLETORECON",
-        "RECLAIMABLE",
-        "SHOWATTACKRETICLE"
     },
     Defense = { ArmorType = "Light", Health = 120, MaxHealth = 120, RegenRate = 0 },
     Economy = { BuildCostEnergy = 7800, BuildCostMass = 390, BuildTime = 1300 },
@@ -981,20 +894,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 29 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
     },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2FACTORY",
-        "BUILTBYTIER3FACTORY",
-        "CYBRAN",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH2",
-        "ANTINAVY",
-        "BOMBER",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Light", Health = 115, MaxHealth = 115, RegenRate = 0 },
     Economy = { BuildCostEnergy = 6600, BuildCostMass = 550, BuildTime = 1000 },
     Intel = { SonarRadius = 40, VisionRadius = 32 },
@@ -1137,21 +1036,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 5 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
     },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3FACTORY",
-        "CYBRAN",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH3",
-        "INTELLIGENCE",
-        "RADAR",
-        "SONAR",
-        "COUNTERINTELLIGENCE",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Light", Health = 18, MaxHealth = 18, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 2400,
@@ -1239,18 +1123,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 50 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 50 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3FACTORY",
-        "CYBRAN",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH3",
-        "ANTIAIR",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
     },
     Defense = { ArmorType = "Light", Health = 200, MaxHealth = 200, RegenRate = 0 },
     Economy = {
@@ -1478,19 +1350,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 30 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 30 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3FACTORY",
-        "CYBRAN",
-        "MOBILE",
-        "AIR",
-        "HIGHALTAIR",
-        "TECH3",
-        "BOMBER",
-        "VISIBLETORECON",
-        "RECLAIMABLE",
-        "SHOWATTACKRETICLE"
     },
     Defense = { ArmorType = "Light", Health = 120, MaxHealth = 120, RegenRate = 0 },
     Economy = {
@@ -1782,21 +1641,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 4500 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 4500 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3COMMANDER",
-        "BUILTBYTIER3ENGINEER",
-        "CYBRAN",
-        "MOBILE",
-        "AIR",
-        "EXPERIMENTAL",
-        "GROUNDATTACK",
-        "NEEDMOBILEBUILD",
-        "ANTIAIR",
-        "VISIBLETORECON",
-        "RECLAIMABLE",
-        "DRAGBUILD"
     },
     Defense = { ArmorType = "Light", Health = 18000, MaxHealth = 18000, RegenRate = 0 },
     Economy = {

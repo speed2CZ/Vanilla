@@ -1,24 +1,6 @@
 -- T1 Land Factory
 UnitBlueprint {
     BlueprintId = "urb0101",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYCOMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "LAND",
-        "TECH1",
-        "CONSTRUCTION",
-        "FACTORY",
-        "RALLYPOINT",
-        "DRAGBUILD",
-        "SIZE16",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 4200, MaxHealth = 4200, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 2100,
@@ -43,24 +25,6 @@ UnitBlueprint {
 -- T1 Air Factory
 UnitBlueprint {
     BlueprintId = "urb0102",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYCOMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "AIR",
-        "TECH1",
-        "CONSTRUCTION",
-        "FACTORY",
-        "RALLYPOINT",
-        "DRAGBUILD",
-        "SIZE16",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 4200, MaxHealth = 4200, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 2400,
@@ -85,24 +49,6 @@ UnitBlueprint {
 -- T1 Naval Factory
 UnitBlueprint {
     BlueprintId = "urb0103",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYCOMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "NAVAL",
-        "TECH1",
-        "CONSTRUCTION",
-        "FACTORY",
-        "RALLYPOINT",
-        "DRAGBUILD",
-        "SIZE16",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 4200, MaxHealth = 4200, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 1500,
@@ -127,22 +73,6 @@ UnitBlueprint {
 -- T2 Land Factory
 UnitBlueprint {
     BlueprintId = "urb0201",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1FACTORY",
-        "CYBRAN",
-        "STRUCTURE",
-        "LAND",
-        "TECH2",
-        "CONSTRUCTION",
-        "FACTORY",
-        "RALLYPOINT",
-        "DRAGBUILD",
-        "CONSTRUCTIONSORTDOWN",
-        "SIZE16",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 7900, MaxHealth = 7900, RegenRate = 0 },
     Display = {
         AnimationUpgrade = '/units/zrb9501/zrb9501_Aopen.sca',
@@ -188,22 +118,6 @@ UnitBlueprint {
 -- T2 Air Factory
 UnitBlueprint {
     BlueprintId = "urb0202",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1FACTORY",
-        "CYBRAN",
-        "STRUCTURE",
-        "AIR",
-        "TECH2",
-        "CONSTRUCTION",
-        "FACTORY",
-        "RALLYPOINT",
-        "DRAGBUILD",
-        "CONSTRUCTIONSORTDOWN",
-        "SIZE16",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 7900, MaxHealth = 7900, RegenRate = 0 },
     Display = {
         AnimationUpgrade = '/units/zrb9502/zrb9502_Aupgrade.sca',
@@ -251,22 +165,6 @@ UnitBlueprint {
 -- T2 Naval Factory
 UnitBlueprint {
     BlueprintId = "urb0203",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1FACTORY",
-        "CYBRAN",
-        "STRUCTURE",
-        "NAVAL",
-        "TECH2",
-        "CONSTRUCTION",
-        "FACTORY",
-        "RALLYPOINT",
-        "DRAGBUILD",
-        "CONSTRUCTIONSORTDOWN",
-        "SIZE16",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 15000, MaxHealth = 15000, RegenRate = 0 },
     Display = {
         AnimationUpgrade = '/units/zrb9503/zrb9503_Aopen.sca',
@@ -314,22 +212,6 @@ UnitBlueprint {
 -- T3 Land Factory
 UnitBlueprint {
     BlueprintId = "urb0301",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2FACTORY",
-        "CYBRAN",
-        "STRUCTURE",
-        "LAND",
-        "TECH3",
-        "CONSTRUCTION",
-        "FACTORY",
-        "RALLYPOINT",
-        "DRAGBUILD",
-        "CONSTRUCTIONSORTDOWN",
-        "SIZE16",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 19000, MaxHealth = 19000, RegenRate = 0 },
     Display = {
         Mesh = {
@@ -376,22 +258,6 @@ UnitBlueprint {
 -- T3 Air Factory
 UnitBlueprint {
     BlueprintId = "urb0302",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2FACTORY",
-        "CYBRAN",
-        "STRUCTURE",
-        "AIR",
-        "TECH3",
-        "CONSTRUCTION",
-        "FACTORY",
-        "RALLYPOINT",
-        "DRAGBUILD",
-        "CONSTRUCTIONSORTDOWN",
-        "SIZE16",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 19000, MaxHealth = 19000, RegenRate = 0 },
     Display = {
         Mesh = {
@@ -438,22 +304,6 @@ UnitBlueprint {
 -- T3 Naval Factory
 UnitBlueprint {
     BlueprintId = "urb0303",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2FACTORY",
-        "CYBRAN",
-        "STRUCTURE",
-        "NAVAL",
-        "TECH3",
-        "CONSTRUCTION",
-        "FACTORY",
-        "RALLYPOINT",
-        "DRAGBUILD",
-        "CONSTRUCTIONSORTDOWN",
-        "SIZE16",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 35000, MaxHealth = 35000, RegenRate = 0 },
     Display = {
         Mesh = {
@@ -500,22 +350,6 @@ UnitBlueprint {
 -- Gate
 UnitBlueprint {
     BlueprintId = "urb0304",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "TECH3",
-        "FACTORY",
-        "GATE",
-        "RALLYPOINT",
-        "DRAGBUILD",
-        "SIZE20",
-        "VISIBLETORECON",
-        "RECLAIMABLE",
-        "CAMPAIGNGATE",
-    },
     Defense = { ArmorType = "Normal", Health = 10000, MaxHealth = 10000, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 12000,
@@ -534,22 +368,6 @@ UnitBlueprint {
 -- T1 Pgen
 UnitBlueprint {
     BlueprintId = "urb1101",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYCOMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "ECONOMIC",
-        "TECH1",
-        "ENERGYPRODUCTION",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 720, MaxHealth = 720, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 750,
@@ -573,23 +391,6 @@ UnitBlueprint {
 -- T1 Hydro
 UnitBlueprint {
     BlueprintId = "urb1102",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "ECONOMIC",
-        "TECH1",
-        "ENERGYPRODUCTION",
-        "HYDROCARBON",
-        "SIZE12",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 2880, MaxHealth = 2880, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 800,
@@ -604,22 +405,6 @@ UnitBlueprint {
 -- T1 Mex
 UnitBlueprint {
     BlueprintId = "urb1103",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYCOMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "ECONOMIC",
-        "TECH1",
-        "MASSPRODUCTION",
-        "MASSEXTRACTION",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 1200, MaxHealth = 1200, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 360,
@@ -637,21 +422,23 @@ UnitBlueprint {
 UnitBlueprint {
     BlueprintId = "urb1104",
     Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYCOMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "ECONOMIC",
-        "TECH1",
-        "MASSPRODUCTION",
-        "MASSFABRICATION",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
+        'PRODUCTSC1',
+        'SELECTABLE',
+        'BUILTBYTIER2ENGINEER',
+        'BUILTBYTIER2COMMANDER',
+        'BUILTBYTIER3ENGINEER',
+        'BUILTBYTIER3COMMANDER',
+        'CYBRAN',
+        'STRUCTURE',
+        'ECONOMIC',
+        'TECH1',
+        'MASSPRODUCTION',
+        'MASSFABRICATION',
+        'DRAGBUILD',
+        'SIZE4',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'SORTECONOMY',
     },
     Defense = { ArmorType = "Normal", Health = 360, MaxHealth = 360, RegenRate = 0 },
     Economy = {
@@ -677,23 +464,6 @@ UnitBlueprint {
 -- T1 E Storage
 UnitBlueprint {
     BlueprintId = "urb1105",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "ECONOMIC",
-        "TECH1",
-        "ENERGYSTORAGE",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 1200, MaxHealth = 1200, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 2400,
@@ -717,23 +487,6 @@ UnitBlueprint {
 -- T1 Mass Storage
 UnitBlueprint {
     BlueprintId = "urb1106",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "ECONOMIC",
-        "TECH1",
-        "MASSSTORAGE",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 1600, MaxHealth = 1600, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 1200,
@@ -747,22 +500,6 @@ UnitBlueprint {
 -- T2 Pgen
 UnitBlueprint {
     BlueprintId = "urb1201",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "ECONOMIC",
-        "TECH2",
-        "ENERGYPRODUCTION",
-        "DRAGBUILD",
-        "SIZE12",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 2160, MaxHealth = 2160, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 12000,
@@ -788,22 +525,6 @@ UnitBlueprint {
 -- T2 Mex
 UnitBlueprint {
     BlueprintId = "urb1202",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "ECONOMIC",
-        "TECH2",
-        "MASSPRODUCTION",
-        "MASSEXTRACTION",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 2160, MaxHealth = 2160, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 5400,
@@ -821,20 +542,6 @@ UnitBlueprint {
 -- T3 Pgen
 UnitBlueprint {
     BlueprintId = "urb1301",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "ECONOMIC",
-        "TECH3",
-        "ENERGYPRODUCTION",
-        "DRAGBUILD",
-        "SIZE16",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 9720, MaxHealth = 9720, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 57600,
@@ -860,20 +567,6 @@ UnitBlueprint {
 -- T3 Mex
 UnitBlueprint {
     BlueprintId = "urb1302",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "ECONOMIC",
-        "TECH3",
-        "MASSPRODUCTION",
-        "MASSEXTRACTION",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 4000, MaxHealth = 4000, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 10800,
@@ -889,21 +582,6 @@ UnitBlueprint {
 -- T3 Mass Fab
 UnitBlueprint {
     BlueprintId = "urb1303",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "ECONOMIC",
-        "TECH3",
-        "MASSPRODUCTION",
-        "MASSFABRICATION",
-        "DRAGBUILD",
-        "SIZE12",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 6000, MaxHealth = 6000, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 100000,
@@ -936,22 +614,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 213 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 213 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYCOMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH1",
-        "DIRECTFIRE",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
     },
     Defense = { ArmorType = "Normal", Health = 850, MaxHealth = 850, RegenRate = 0 },
     Economy = { BuildCostEnergy = 2000, BuildCostMass = 250, BuildTime = 250 },
@@ -1048,22 +710,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 300 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 300 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYCOMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH1",
-        "ANTIAIR",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
     },
     Defense = { ArmorType = "Normal", Health = 1200, MaxHealth = 1200, RegenRate = 0 },
     Economy = { BuildCostEnergy = 2000, BuildCostMass = 200, BuildTime = 250 },
@@ -1166,25 +812,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 375 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 375 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "STRATEGIC",
-        "TECH2",
-        "INDIRECTFIRE",
-        "TACTICALMISSILEPLATFORM",
-        "DRAGBUILD",
-        "SILO",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE",
-        "SHOWATTACKRETICLE"
     },
     Defense = { ArmorType = "Normal", Health = 1500, MaxHealth = 1500, RegenRate = 0 },
     Economy = { BuildCostEnergy = 5100, BuildCostMass = 850, BuildTime = 850, BuildRate = 1 },
@@ -1303,22 +930,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 1175 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
     },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYCOMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH1",
-        "ANTINAVY",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 4700, MaxHealth = 4700, RegenRate = 0 },
     Economy = { BuildCostEnergy = 4000, BuildCostMass = 600, BuildTime = 500 },
     Footprint = { MinWaterDepth = 1.5 },
@@ -1419,22 +1030,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 975 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 975 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH2",
-        "ANTIAIR",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
     },
     Defense = { ArmorType = "Normal", Health = 3900, MaxHealth = 3900, RegenRate = 0 },
     Economy = { BuildCostEnergy = 5600, BuildCostMass = 560, BuildTime = 700 },
@@ -1546,22 +1141,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 2875 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
     },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH2",
-        "ANTINAVY",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 11500, MaxHealth = 11500, RegenRate = 0 },
     Economy = { BuildCostEnergy = 9000, BuildCostMass = 1500, BuildTime = 1500 },
     Footprint = { MinWaterDepth = 1.5, SizeX = 2, SizeZ = 2 },
@@ -1665,22 +1244,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 500 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
     },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH2",
-        "DIRECTFIRE",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 2000, MaxHealth = 2000, RegenRate = 0 },
     Economy = { BuildCostEnergy = 3400, BuildCostMass = 480, BuildTime = 400 },
     Footprint = { SizeX = 1, SizeZ = 1 },
@@ -1778,22 +1341,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 875 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 875 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "STRATEGIC",
-        "TECH3",
-        "INDIRECTFIRE",
-        "ARTILLERY",
-        "DRAGBUILD",
-        "SIZE16",
-        "VISIBLETORECON",
-        "RECLAIMABLE",
-        "SHOWATTACKRETICLE"
     },
     Defense = { ArmorType = "Normal", Health = 3500, MaxHealth = 3500, RegenRate = 0 },
     Economy = {
@@ -1912,24 +1459,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 788 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
     },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "STRATEGIC",
-        "TECH2",
-        "INDIRECTFIRE",
-        "ARTILLERY",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "SHOWATTACKRETICLE",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 3150, MaxHealth = 3150, RegenRate = 0 },
     Economy = { BuildCostEnergy = 16000, BuildCostMass = 2240, BuildTime = 1600 },
     Intel = { VisionRadius = 28 },
@@ -2030,20 +1559,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 1250 },
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 1250 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
-    },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH3",
-        "ANTIAIR",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
     },
     Defense = { ArmorType = "Normal", Health = 5000, MaxHealth = 5000, RegenRate = 0 },
     Economy = { BuildCostEnergy = 12000, BuildCostMass = 1400, BuildTime = 1500 },
@@ -2157,21 +1672,6 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 2160 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
     },
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "STRATEGIC",
-        "TECH3",
-        "NUKE",
-        "SILO",
-        "DRAGBUILD",
-        "SIZE12",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 8640, MaxHealth = 8640, RegenRate = 0 },
     Economy = { BuildCostEnergy = 1250000, BuildCostMass = 130000, BuildTime = 75000, BuildRate = 1 },
     Intel = { VisionRadius = 28 },
@@ -2265,22 +1765,6 @@ UnitBlueprint {
 -- T1 Radar
 UnitBlueprint {
     BlueprintId = "urb3101",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "INTELLIGENCE",
-        "TECH1",
-        "RADAR",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 10, MaxHealth = 10, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 720,
@@ -2302,22 +1786,6 @@ UnitBlueprint {
 -- T1 Sonar
 UnitBlueprint {
     BlueprintId = "urb3102",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "INTELLIGENCE",
-        "TECH1",
-        "SONAR",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 400, MaxHealth = 400, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 544,
@@ -2339,17 +1807,6 @@ UnitBlueprint {
 -- T1 Desplyed Mole #unused
 UnitBlueprint {
     BlueprintId = "urb3103",
-    Categories = {
-        "SELECTABLE",
-        "CYBRAN",
-        "STRUCTURE",
-        "INTELLIGENCE",
-        "TECH1",
-        "RADAR",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 1, MaxHealth = 1, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 320,
@@ -2364,20 +1821,6 @@ UnitBlueprint {
 -- T3 Omni
 UnitBlueprint {
     BlueprintId = "urb3104",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "INTELLIGENCE",
-        "TECH3",
-        "OMNI",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 100, MaxHealth = 100, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 30000,
@@ -2398,22 +1841,6 @@ UnitBlueprint {
 -- T2 Radar
 UnitBlueprint {
     BlueprintId = "urb3201",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "INTELLIGENCE",
-        "TECH2",
-        "RADAR",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 50, MaxHealth = 50, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 3600,
@@ -2435,22 +1862,6 @@ UnitBlueprint {
 -- T2 Sonar
 UnitBlueprint {
     BlueprintId = "urb3202",
-    Categories = {
-        "SELECTABLE",
-        "CYBRAN",
-        "STRUCTURE",
-        "INTELLIGENCE",
-        "TECH2",
-        "SONAR",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 625, MaxHealth = 625, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 3600,
@@ -2472,22 +1883,6 @@ UnitBlueprint {
 -- T2 TMD
 UnitBlueprint {
     BlueprintId = "urb4201",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH2",
-        "ANTIMISSILE",
-        "DRAGBUILD",
-        "SIZE4",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 3000, MaxHealth = 3000, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 3200,
@@ -2553,22 +1948,6 @@ UnitBlueprint {
 -- T2 Shield ED1
 UnitBlueprint {
     BlueprintId = "urb4202",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH2",
-        "SHIELD",
-        "DRAGBUILD",
-        "SIZE12",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = {
         ArmorType = 'Normal',
         Health = 500,
@@ -2600,22 +1979,6 @@ UnitBlueprint {
 -- T2 Stealth
 UnitBlueprint {
     BlueprintId = "urb4203",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "INTELLIGENCE",
-        "TECH2",
-        "COUNTERINTELLIGENCE",
-        "DRAGBUILD",
-        "SIZE12",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 50, MaxHealth = 50, RegenRate = 0 },
     Economy = {
         BuildCostEnergy = 4000,
@@ -2634,18 +1997,6 @@ UnitBlueprint {
 -- T2 Shield ED2
 UnitBlueprint {
     BlueprintId = "urb4204",
-    Categories = {
-        "SELECTABLE",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH2",
-        "SHIELD",
-        "DRAGBUILD",
-        "SIZE12",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = {
         ArmorType = 'Normal',
         Health = 500,
@@ -2676,18 +2027,6 @@ UnitBlueprint {
 -- T2 Shield ED3
 UnitBlueprint {
     BlueprintId = "urb4205",
-    Categories = {
-        "SELECTABLE",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH2",
-        "SHIELD",
-        "DRAGBUILD",
-        "SIZE12",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = {
         ArmorType = 'Normal',
         Health = 500,
@@ -2719,18 +2058,6 @@ UnitBlueprint {
 -- T2 Shield ED4
 UnitBlueprint {
     BlueprintId = "urb4206",
-    Categories = {
-        "SELECTABLE",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH2",
-        "SHIELD",
-        "DRAGBUILD",
-        "SIZE12",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = {
         ArmorType = 'Normal',
         Health = 500,
@@ -2762,18 +2089,6 @@ UnitBlueprint {
 -- T2 Shield ED5
 UnitBlueprint {
     BlueprintId = "urb4207",
-    Categories = {
-        "SELECTABLE",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH2",
-        "SHIELD",
-        "DRAGBUILD",
-        "SIZE12",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = {
         ArmorType = 'Normal',
         Health = 500,
@@ -2803,21 +2118,6 @@ UnitBlueprint {
 -- T3 Anti Nuke
 UnitBlueprint {
     BlueprintId = "urb4302",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH3",
-        "ANTIMISSILE",
-        "SILO",
-        "DRAGBUILD",
-        "SIZE8",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 4000, MaxHealth = 4000, RegenRate = 0 },
     Economy = { BuildCostEnergy = 240000, BuildCostMass = 21000, BuildTime = 9000, BuildRate = 1 },
     Footprint = { SizeX = 2, SizeZ = 2 },
@@ -2877,22 +2177,6 @@ UnitBlueprint {
 -- Wall
 UnitBlueprint {
     BlueprintId = "urb5101",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER1ENGINEER",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYCOMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "DEFENSE",
-        "TECH1",
-        "WALL",
-        "DRAGBUILD",
-        "BENIGN",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 4000, MaxHealth = 4000, RegenRate = 0 },
     Economy = { BuildCostEnergy = 10, BuildCostMass = 2, BuildTime = 10 },
     Intel = { VisionRadius = 0 },
@@ -2902,22 +2186,6 @@ UnitBlueprint {
 -- T2 Air Staging
 UnitBlueprint {
     BlueprintId = "urb5202",
-    Categories = {
-        "SELECTABLE",
-        "BUILTBYTIER2ENGINEER",
-        "BUILTBYTIER3ENGINEER",
-        "BUILTBYTIER2COMMANDER",
-        "BUILTBYTIER3COMMANDER",
-        "CYBRAN",
-        "STRUCTURE",
-        "STRATEGIC",
-        "TECH2",
-        "AIRSTAGINGPLATFORM",
-        "DRAGBUILD",
-        "SIZE12",
-        "VISIBLETORECON",
-        "RECLAIMABLE"
-    },
     Defense = { ArmorType = "Normal", Health = 500, MaxHealth = 500, RegenRate = 0 },
     Economy = { BuildCostEnergy = 2100, BuildCostMass = 350, BuildTime = 350 },
     Merge = true,

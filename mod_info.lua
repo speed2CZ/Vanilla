@@ -1,0 +1,11 @@
+name = "Vanilla Supreme Commander - Balance Mod"
+uid = "dfd7c84e-2d67-44d1-aea7-d2bf82aa7c20"
+version = 1
+copyright = "speed2 - Everyone caught stealing my superior code will get banished from time and space. FOREVER."
+description = "Brings the unit balance from the original Supreme Commander game."
+icon = "/mods/Vanilla/vanilla_icon.png"
+author = "speed2"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = false

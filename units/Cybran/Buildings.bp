@@ -1,0 +1,2924 @@
+-- T1 Land Factory
+UnitBlueprint {
+    BlueprintId = "urb0101",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYCOMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "LAND",
+        "TECH1",
+        "CONSTRUCTION",
+        "FACTORY",
+        "RALLYPOINT",
+        "DRAGBUILD",
+        "SIZE16",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 4200, MaxHealth = 4200, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 2100,
+        BuildCostMass = 240,
+        BuildRate = 10,
+        BuildTime = 300,
+        BuildableCategory = {
+            "BUILTBYTIER1FACTORY CYBRAN MOBILE CONSTRUCTION",
+            "BUILTBYTIER1FACTORY CYBRAN STRUCTURE LAND",
+            "BUILTBYTIER1FACTORY CYBRAN MOBILE LAND"
+        },
+        MaxEnergyUse = 40,
+        MaxMassUse = 10,
+        StorageEnergy = 500,
+        StorageMass = 100
+    },
+    Footprint = { SizeX = 5, SizeZ = 5 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T1 Air Factory
+UnitBlueprint {
+    BlueprintId = "urb0102",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYCOMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "AIR",
+        "TECH1",
+        "CONSTRUCTION",
+        "FACTORY",
+        "RALLYPOINT",
+        "DRAGBUILD",
+        "SIZE16",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 4200, MaxHealth = 4200, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 2400,
+        BuildCostMass = 240,
+        BuildRate = 10,
+        BuildTime = 400,
+        BuildableCategory = {
+            "BUILTBYTIER1FACTORY CYBRAN MOBILE CONSTRUCTION",
+            "BUILTBYTIER1FACTORY CYBRAN STRUCTURE AIR",
+            "BUILTBYTIER1FACTORY CYBRAN MOBILE AIR"
+        },
+        MaxEnergyUse = 80,
+        MaxMassUse = 10,
+        StorageEnergy = 500,
+        StorageMass = 100
+    },
+    Footprint = { SizeX = 5, SizeZ = 5 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T1 Naval Factory
+UnitBlueprint {
+    BlueprintId = "urb0103",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYCOMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "NAVAL",
+        "TECH1",
+        "CONSTRUCTION",
+        "FACTORY",
+        "RALLYPOINT",
+        "DRAGBUILD",
+        "SIZE16",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 4200, MaxHealth = 4200, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 1500,
+        BuildCostMass = 300,
+        BuildRate = 10,
+        BuildTime = 300,
+        BuildableCategory = {
+            "BUILTBYTIER1FACTORY CYBRAN MOBILE CONSTRUCTION",
+            "BUILTBYTIER1FACTORY CYBRAN STRUCTURE NAVAL",
+            "BUILTBYTIER1FACTORY CYBRAN MOBILE NAVAL"
+        },
+        MaxEnergyUse = 40,
+        MaxMassUse = 10,
+        StorageEnergy = 500,
+        StorageMass = 100
+    },
+    Footprint = { MinWaterDepth = 1.5, SizeX = 12, SizeZ = 13 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T2 Land Factory
+UnitBlueprint {
+    BlueprintId = "urb0201",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1FACTORY",
+        "CYBRAN",
+        "STRUCTURE",
+        "LAND",
+        "TECH2",
+        "CONSTRUCTION",
+        "FACTORY",
+        "RALLYPOINT",
+        "DRAGBUILD",
+        "CONSTRUCTIONSORTDOWN",
+        "SIZE16",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 7900, MaxHealth = 7900, RegenRate = 0 },
+    Display = {
+        AnimationUpgrade = '/units/zrb9501/zrb9501_Aopen.sca',
+        Mesh = {
+            LODs = {
+                {
+                    AlbedoName = '/units/zrb9501/zrb9501_albedo.dds',
+                    LODCutoff = 200,
+                    MeshName = '/units/zrb9501/zrb9501_LOD0.scm',
+                    NormalsName = '/units/zrb9501/zrb9501_normalsts.dds',
+                    ShaderName = 'Unit',
+                    SpecularName = '/units/zrb9501/zrb9501_specteam.dds',
+                },
+                {
+                    AlbedoName = '/units/zrb9501/zrb9501_lod1_albedo.dds',
+                    LODCutoff = 500,
+                    MeshName = '/units/zrb9501/zrb9501_LOD1.scm',
+                    NormalsName = '/units/zrb9501/zrb9501_lod1_normalsts.dds',
+                    ShaderName = 'Unit',
+                    SpecularName = '/units/zrb9501/zrb9501_lod1_specteam.dds',
+                },
+            },
+        },   
+    },
+    Economy = {
+        BuildCostEnergy = 7000,
+        BuildCostMass = 875,
+        BuildRate = 20,
+        BuildTime = 1750,
+        BuildableCategory = {
+            "BUILTBYTIER2FACTORY CYBRAN MOBILE CONSTRUCTION",
+            "BUILTBYTIER2FACTORY CYBRAN STRUCTURE LAND",
+            "BUILTBYTIER2FACTORY CYBRAN MOBILE LAND"
+        },
+        StorageEnergy = 1000,
+        StorageMass = 200
+    },
+    Footprint = { SizeX = 5, SizeZ = 5 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T2 Air Factory
+UnitBlueprint {
+    BlueprintId = "urb0202",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1FACTORY",
+        "CYBRAN",
+        "STRUCTURE",
+        "AIR",
+        "TECH2",
+        "CONSTRUCTION",
+        "FACTORY",
+        "RALLYPOINT",
+        "DRAGBUILD",
+        "CONSTRUCTIONSORTDOWN",
+        "SIZE16",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 7900, MaxHealth = 7900, RegenRate = 0 },
+    Display = {
+        AnimationUpgrade = '/units/zrb9502/zrb9502_Aupgrade.sca',
+        Mesh = {
+            LODs = {
+                {
+                    AlbedoName = '/units/zrb9502/zrb9502_albedo.dds',
+                    LODCutoff = 200,
+                    MeshName = '/units/zrb9502/zrb9502_LOD0.scm',
+                    NormalsName = '/units/zrb9502/zrb9502_normalsts.dds',
+                    ShaderName = 'Unit',
+                    SpecularName = '/units/zrb9502/zrb9502_specteam.dds',
+                },
+                {
+                    AlbedoName = '/units/zrb9502/zrb9502_lod1_albedo.dds',
+                    LODCutoff = 500,
+                    MeshName = '/units/zrb9502/zrb9502_LOD1.scm',
+                    NormalsName = '/units/zrb9502/zrb9502_lod1_normalsts.dds',
+                    ShaderName = 'Unit',
+                    SpecularName = '/units/zrb9502/zrb9502_lod1_specteam.dds',
+                },
+            },
+        },   
+    },
+    Economy = {
+        BuildCostEnergy = 17600,
+        BuildCostMass = 660,
+        BuildRate = 20,
+        BuildTime = 2200,
+        BuildableCategory = {
+            "BUILTBYTIER2FACTORY CYBRAN MOBILE CONSTRUCTION",
+            "BUILTBYTIER2FACTORY CYBRAN STRUCTURE AIR",
+            "BUILTBYTIER2FACTORY CYBRAN MOBILE AIR"
+        },
+        MaxEnergyUse = 160,
+        MaxMassUse = 20,
+        StorageEnergy = 1000,
+        StorageMass = 200
+    },
+    Footprint = { SizeX = 5, SizeZ = 5 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T2 Naval Factory
+UnitBlueprint {
+    BlueprintId = "urb0203",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1FACTORY",
+        "CYBRAN",
+        "STRUCTURE",
+        "NAVAL",
+        "TECH2",
+        "CONSTRUCTION",
+        "FACTORY",
+        "RALLYPOINT",
+        "DRAGBUILD",
+        "CONSTRUCTIONSORTDOWN",
+        "SIZE16",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 15000, MaxHealth = 15000, RegenRate = 0 },
+    Display = {
+        AnimationUpgrade = '/units/zrb9503/zrb9503_Aopen.sca',
+        Mesh = {
+            LODs = {
+                {
+                    AlbedoName = '/units/zrb9503/zrb9503_albedo.dds',
+                    LODCutoff = 200,
+                    MeshName = '/units/zrb9503/zrb9503_LOD0.scm',
+                    NormalsName = '/units/zrb9503/zrb9503_normalsts.dds',
+                    ShaderName = 'Unit',
+                    SpecularName = '/units/zrb9503/zrb9503_specteam.dds',
+                },
+                {
+                    AlbedoName = '/units/zrb9503/zrb9503_lod1_albedo.dds',
+                    LODCutoff = 600,
+                    MeshName = '/units/zrb9503/zrb9503_LOD1.scm',
+                    NormalsName = '/units/zrb9503/zrb9503_lod1_normalsts.dds',
+                    ShaderName = 'Unit',
+                    SpecularName = '/units/zrb9503/zrb9503_lod1_specteam.dds',
+                },
+            },
+        },   
+    },
+    Economy = {
+        BuildCostEnergy = 7000,
+        BuildCostMass = 875,
+        BuildRate = 20,
+        BuildTime = 1750,
+        BuildableCategory = {
+            "BUILTBYTIER2FACTORY CYBRAN MOBILE CONSTRUCTION",
+            "BUILTBYTIER2FACTORY CYBRAN STRUCTURE NAVAL",
+            "BUILTBYTIER2FACTORY CYBRAN MOBILE NAVAL"
+        },
+        MaxEnergyUse = 80,
+        MaxMassUse = 20,
+        StorageEnergy = 1000,
+        StorageMass = 200
+    },
+    Footprint = { MinWaterDepth = 1.5, SizeX = 12, SizeZ = 13 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T3 Land Factory
+UnitBlueprint {
+    BlueprintId = "urb0301",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2FACTORY",
+        "CYBRAN",
+        "STRUCTURE",
+        "LAND",
+        "TECH3",
+        "CONSTRUCTION",
+        "FACTORY",
+        "RALLYPOINT",
+        "DRAGBUILD",
+        "CONSTRUCTIONSORTDOWN",
+        "SIZE16",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 19000, MaxHealth = 19000, RegenRate = 0 },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    AlbedoName = '/units/zrb9601/zrb9601_albedo.dds',
+                    LODCutoff = 200,
+                    MeshName = '/units/zrb9601/zrb9601_LOD0.scm',
+                    NormalsName = '/units/zrb9601/zrb9601_normalsts.dds',
+                    ShaderName = 'Unit',
+                    SpecularName = '/units/zrb9601/zrb9601_specteam.dds',
+                },
+                {
+                    AlbedoName = '/units/zrb9601/zrb9601_lod1_albedo.dds',
+                    LODCutoff = 500,
+                    MeshName = '/units/zrb9601/zrb9601_LOD1.scm',
+                    NormalsName = '/units/zrb9601/zrb9601_lod1_normalsts.dds',
+                    ShaderName = 'Unit',
+                    SpecularName = '/units/zrb9601/zrb9601_lod1_specteam.dds',
+                },
+            },
+        },   
+    },
+    Economy = {
+        BuildCostEnergy = 21840,
+        BuildCostMass = 3120,
+        BuildRate = 30,
+        BuildTime = 5200,
+        BuildableCategory = {
+            "BUILTBYTIER3FACTORY CYBRAN MOBILE CONSTRUCTION",
+            "BUILTBYTIER3FACTORY CYBRAN STRUCTURE LAND",
+            "BUILTBYTIER3FACTORY CYBRAN MOBILE LAND"
+        },
+        MaxEnergyUse = 1000,
+        MaxMassUse = 100,
+        StorageEnergy = 2000,
+        StorageMass = 400
+    },
+    Footprint = { SizeX = 5, SizeZ = 5 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T3 Air Factory
+UnitBlueprint {
+    BlueprintId = "urb0302",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2FACTORY",
+        "CYBRAN",
+        "STRUCTURE",
+        "AIR",
+        "TECH3",
+        "CONSTRUCTION",
+        "FACTORY",
+        "RALLYPOINT",
+        "DRAGBUILD",
+        "CONSTRUCTIONSORTDOWN",
+        "SIZE16",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 19000, MaxHealth = 19000, RegenRate = 0 },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    AlbedoName = '/units/zrb9602/zrb9602_albedo.dds',
+                    LODCutoff = 200,
+                    MeshName = '/units/zrb9602/zrb9602_LOD0.scm',
+                    NormalsName = '/units/zrb9602/zrb9602_normalsts.dds',
+                    ShaderName = 'Unit',
+                    SpecularName = '/units/zrb9602/zrb9602_specteam.dds',
+                },
+                {
+                    AlbedoName = '/units/zrb9602/zrb9602_lod1_albedo.dds',
+                    LODCutoff = 500,
+                    MeshName = '/units/zrb9602/zrb9602_LOD1.scm',
+                    NormalsName = '/units/zrb9602/zrb9602_lod1_normalsts.dds',
+                    ShaderName = 'Unit',
+                    SpecularName = '/units/zrb9602/zrb9602_lod1_specteam.dds',
+                },
+            },
+        },   
+    },
+    Economy = {
+        BuildCostEnergy = 32500,
+        BuildCostMass = 1950,
+        BuildRate = 30,
+        BuildTime = 6500,
+        BuildableCategory = {
+            "BUILTBYTIER3FACTORY CYBRAN MOBILE CONSTRUCTION",
+            "BUILTBYTIER3FACTORY CYBRAN STRUCTURE AIR",
+            "BUILTBYTIER3FACTORY CYBRAN MOBILE AIR"
+        },
+        MaxEnergyUse = 1000,
+        MaxMassUse = 100,
+        StorageEnergy = 2000,
+        StorageMass = 400
+    },
+    Footprint = { SizeX = 5, SizeZ = 5 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T3 Naval Factory
+UnitBlueprint {
+    BlueprintId = "urb0303",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2FACTORY",
+        "CYBRAN",
+        "STRUCTURE",
+        "NAVAL",
+        "TECH3",
+        "CONSTRUCTION",
+        "FACTORY",
+        "RALLYPOINT",
+        "DRAGBUILD",
+        "CONSTRUCTIONSORTDOWN",
+        "SIZE16",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 35000, MaxHealth = 35000, RegenRate = 0 },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    AlbedoName = '/units/zrb9603/zrb9603_albedo.dds',
+                    LODCutoff = 200,
+                    MeshName = '/units/zrb9603/zrb9603_LOD0.scm',
+                    NormalsName = '/units/zrb9603/zrb9603_normalsts.dds',
+                    ShaderName = 'Unit',
+                    SpecularName = '/units/zrb9603/zrb9603_specteam.dds',
+                },
+                {
+                    AlbedoName = '/units/zrb9603/zrb9603_lod1_albedo.dds',
+                    LODCutoff = 500,
+                    MeshName = '/units/zrb9603/zrb9603_LOD1.scm',
+                    NormalsName = '/units/zrb9603/zrb9603_lod1_normalsts.dds',
+                    ShaderName = 'Unit',
+                    SpecularName = '/units/zrb9603/zrb9603_lod1_specteam.dds',
+                },
+            },
+        },   
+    },
+    Economy = {
+        BuildCostEnergy = 20800,
+        BuildCostMass = 2860,
+        BuildRate = 30,
+        BuildTime = 5200,
+        BuildableCategory = {
+            "BUILTBYTIER3FACTORY CYBRAN MOBILE CONSTRUCTION",
+            "BUILTBYTIER3FACTORY CYBRAN STRUCTURE NAVAL",
+            "BUILTBYTIER3FACTORY CYBRAN MOBILE NAVAL"
+        },
+        MaxEnergyUse = 1000,
+        MaxMassUse = 100,
+        StorageEnergy = 2000,
+        StorageMass = 400
+    },
+    Footprint = { MinWaterDepth = 1.5, SizeX = 12, SizeZ = 13 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- Gate
+UnitBlueprint {
+    BlueprintId = "urb0304",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "TECH3",
+        "FACTORY",
+        "GATE",
+        "RALLYPOINT",
+        "DRAGBUILD",
+        "SIZE20",
+        "VISIBLETORECON",
+        "RECLAIMABLE",
+        "CAMPAIGNGATE",
+    },
+    Defense = { ArmorType = "Normal", Health = 10000, MaxHealth = 10000, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 12000,
+        BuildCostMass = 1200,
+        BuildRate = 30,
+        BuildTime = 1200,
+        BuildableCategory = { "BUILTBYQUANTUMGATE CYBRAN" },
+        MaxEnergyUse = 1000,
+        MaxMassUse = 100
+    },
+    Footprint = { SizeX = 7, SizeZ = 7 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T1 Pgen
+UnitBlueprint {
+    BlueprintId = "urb1101",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYCOMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "ECONOMIC",
+        "TECH1",
+        "ENERGYPRODUCTION",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 720, MaxHealth = 720, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 750,
+        BuildCostMass = 75,
+        BuildTime = 125,
+        ProductionPerSecondEnergy = 20
+    },
+    Merge = true,
+    Weapon = {
+        {
+            Damage = 250,
+            DamageFriendly = true,
+            DamageRadius = 2,
+            DamageType = "Normal",
+            DummyWeapon = true,
+            Label = "DeathWeapon"
+        }
+    }
+}
+
+-- T1 Hydro
+UnitBlueprint {
+    BlueprintId = "urb1102",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "ECONOMIC",
+        "TECH1",
+        "ENERGYPRODUCTION",
+        "HYDROCARBON",
+        "SIZE12",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 2880, MaxHealth = 2880, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 800,
+        BuildCostMass = 160,
+        BuildTime = 400,
+        ProductionPerSecondEnergy = 100
+    },
+    Footprint = { SizeX = 3, SizeZ = 3 },
+    Merge = true,
+}
+
+-- T1 Mex
+UnitBlueprint {
+    BlueprintId = "urb1103",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYCOMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "ECONOMIC",
+        "TECH1",
+        "MASSPRODUCTION",
+        "MASSEXTRACTION",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 1200, MaxHealth = 1200, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 360,
+        BuildCostMass = 36,
+        BuildRate = 10,
+        BuildTime = 60,
+        BuildableCategory = { "urb1202" },
+        MaintenanceConsumptionPerSecondEnergy = 2,
+        ProductionPerSecondMass = 2
+    },
+    Merge = true,
+}
+
+-- T1 Mass Fab
+UnitBlueprint {
+    BlueprintId = "urb1104",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYCOMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "ECONOMIC",
+        "TECH1",
+        "MASSPRODUCTION",
+        "MASSFABRICATION",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 360, MaxHealth = 360, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 1000,
+        BuildCostMass = 0,
+        BuildTime = 125,
+        MaintenanceConsumptionPerSecondEnergy = 40,
+        ProductionPerSecondMass = 1
+    },
+    Merge = true,
+    Weapon = {
+        {
+            Damage = 370,
+            DamageFriendly = true,
+            DamageRadius = 5,
+            DamageType = "Normal",
+            DummyWeapon = true,
+            Label = "DeathWeapon"
+        }
+    }
+}
+
+-- T1 E Storage
+UnitBlueprint {
+    BlueprintId = "urb1105",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "ECONOMIC",
+        "TECH1",
+        "ENERGYSTORAGE",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 1200, MaxHealth = 1200, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 2400,
+        BuildCostMass = 120,
+        BuildTime = 200,
+        StorageEnergy = 2000
+    },
+    Merge = true,
+    Weapon = {
+        {
+            Damage = 500,
+            DamageFriendly = true,
+            DamageRadius = 2,
+            DamageType = "Normal",
+            DummyWeapon = true,
+            Label = "DeathWeapon"
+        }
+    }
+}
+
+-- T1 Mass Storage
+UnitBlueprint {
+    BlueprintId = "urb1106",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "ECONOMIC",
+        "TECH1",
+        "MASSSTORAGE",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 1600, MaxHealth = 1600, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 1200,
+        BuildCostMass = 160,
+        BuildTime = 200,
+        StorageMass = 500
+    },
+    Merge = true,
+}
+
+-- T2 Pgen
+UnitBlueprint {
+    BlueprintId = "urb1201",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "ECONOMIC",
+        "TECH2",
+        "ENERGYPRODUCTION",
+        "DRAGBUILD",
+        "SIZE12",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 2160, MaxHealth = 2160, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 12000,
+        BuildCostMass = 1200,
+        BuildTime = 2000,
+        ProductionPerSecondEnergy = 500
+    },
+    Footprint = { SizeX = 3, SizeZ = 3 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+    Weapon = {
+        {
+            Damage = 1500,
+            DamageFriendly = true,
+            DamageRadius = 5,
+            DamageType = "Normal",
+            DummyWeapon = true,
+            Label = "DeathWeapon"
+        }
+    }
+}
+
+-- T2 Mex
+UnitBlueprint {
+    BlueprintId = "urb1202",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "ECONOMIC",
+        "TECH2",
+        "MASSPRODUCTION",
+        "MASSEXTRACTION",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 2160, MaxHealth = 2160, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 5400,
+        BuildCostMass = 900,
+        BuildRate = 15,
+        BuildTime = 900,
+        BuildableCategory = { "urb1302" },
+        MaintenanceConsumptionPerSecondEnergy = 9,
+        ProductionPerSecondMass = 6
+    },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T3 Pgen
+UnitBlueprint {
+    BlueprintId = "urb1301",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "ECONOMIC",
+        "TECH3",
+        "ENERGYPRODUCTION",
+        "DRAGBUILD",
+        "SIZE16",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 9720, MaxHealth = 9720, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 57600,
+        BuildCostMass = 3240,
+        BuildTime = 5400,
+        ProductionPerSecondEnergy = 2500
+    },
+    Footprint = { SizeX = 5, SizeZ = 5 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+    Weapon = {
+        {
+            Damage = 8000,
+            DamageFriendly = true,
+            DamageRadius = 10,
+            DamageType = "Normal",
+            DummyWeapon = true,
+            Label = "DeathWeapon"
+        }
+    }
+}
+
+-- T3 Mex
+UnitBlueprint {
+    BlueprintId = "urb1302",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "ECONOMIC",
+        "TECH3",
+        "MASSPRODUCTION",
+        "MASSEXTRACTION",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 4000, MaxHealth = 4000, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 10800,
+        BuildCostMass = 1800,
+        BuildTime = 1350,
+        MaintenanceConsumptionPerSecondEnergy = 36,
+        ProductionPerSecondMass = 12
+    },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T3 Mass Fab
+UnitBlueprint {
+    BlueprintId = "urb1303",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "ECONOMIC",
+        "TECH3",
+        "MASSPRODUCTION",
+        "MASSFABRICATION",
+        "DRAGBUILD",
+        "SIZE12",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 6000, MaxHealth = 6000, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 100000,
+        BuildCostMass = 800,
+        BuildTime = 3000,
+        MaintenanceConsumptionPerSecondEnergy = 1500,
+        ProductionPerSecondMass = 24
+    },
+    Footprint = { SizeX = 3, SizeZ = 3 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+    Weapon = {
+        {
+            Damage = 4000,
+            DamageFriendly = true,
+            DamageRadius = 7,
+            DamageType = "Normal",
+            DummyWeapon = true,
+            Label = "DeathWeapon"
+        }
+    }
+}
+
+-- T1 PD
+UnitBlueprint {
+    BlueprintId = "urb2101",
+    Buffs = {
+        { Add = { VeteranLevel2 = true }, BuffType = "MAXHEALTH", Value = 213 },
+        { Add = { VeteranLevel2 = true }, BuffType = "HEALTH", Value = 213 },
+        { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 213 },
+        { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 213 },
+        { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
+    },
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYCOMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH1",
+        "DIRECTFIRE",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 850, MaxHealth = 850, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 2000, BuildCostMass = 250, BuildTime = 250 },
+    Intel = { VisionRadius = 24 },
+    Merge = true,
+    Veteran = {
+        Level1 = 15,
+        Level2 = 30,
+        Level3 = 75,
+        Level4 = 150,
+        Level5 = 300,
+    },
+    Weapon = {
+        {
+            BallisticArc = 'RULEUBA_LowArc',
+            Buffs = {
+                {
+                    Add = {
+                        VeteranLevel1 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 13,
+                },
+                {
+                    Add = {
+                        VeteranLevel3 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 13,
+                },
+            },
+            CollideFriendly = false,
+            Damage = 50,
+            DamageType = 'Normal',
+            DisplayName = 'Light Pulse Laser',
+            FiringTolerance = 2,
+            Label = 'MainGun',
+            MaxRadius = 30,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            MuzzleVelocity = 22,
+            ProjectileId = '/projectiles/CDFLaserHeavy01/CDFLaserHeavy01_proj.bp',
+            ProjectileLifetime = 1.5,
+            ProjectilesPerOnFire = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle',
+                    },
+                    RackBone = 'Turret_Barrel',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = 0,
+            RackReloadTimeout = 10,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 3,
+            TargetCheckInterval = 0.16,
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'COMMAND',
+                'MOBILE',
+                'STRUCTURE DEFENSE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            TargetRestrictDisallow = 'UNTARGETABLE',
+            TurretBoneMuzzle = 'Turret_Muzzle',
+            TurretBonePitch = 'Turret_Barrel',
+            TurretBoneYaw = 'Turret',
+            TurretDualManipulators = false,
+            TurretPitch = 10,
+            TurretPitchRange = 55,
+            TurretPitchSpeed = 60,
+            TurretYaw = 0,
+            TurretYawRange = 180,
+            TurretYawSpeed = 60,
+            Turreted = true,
+            WeaponCategory = 'Direct Fire',
+            WeaponRepackTimeout = 15,
+        },
+    },
+}
+
+-- T1 AA
+UnitBlueprint {
+    BlueprintId = "urb2104",
+    Buffs = {
+        { Add = { VeteranLevel2 = true }, BuffType = "MAXHEALTH", Value = 300 },
+        { Add = { VeteranLevel2 = true }, BuffType = "HEALTH", Value = 300 },
+        { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 300 },
+        { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 300 },
+        { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
+    },
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYCOMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH1",
+        "ANTIAIR",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 1200, MaxHealth = 1200, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 2000, BuildCostMass = 200, BuildTime = 250 },
+    Footprint = { MinWaterDepth = 1 },
+    Intel = { VisionRadius = 24 },
+    Merge = true,
+    Veteran = {
+        Level1 = 15,
+        Level2 = 30,
+        Level3 = 75,
+        Level4 = 150,
+        Level5 = 300,
+    },
+    Weapon = {
+        {
+            AlwaysRecheckTarget = true,
+            BallisticArc = 'RULEUBA_None',
+            BeamLifetime = 3,
+            Buffs = {
+                {
+                    Add = {
+                        VeteranLevel1 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 1,
+                },
+                {
+                    Add = {
+                        VeteranLevel3 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 1,
+                },
+            },
+            CollideFriendly = false,
+            Damage = 5,
+            DamageType = 'Normal',
+            DisplayName = 'Electron Autocannon',
+            FiringRandomness = 1,
+            FiringTolerance = 0.5,
+            Label = 'AAGun',
+            MaxRadius = 44,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            MuzzleVelocity = 60,
+            ProjectileId = '/projectiles/CAAAutocannon01/CAAAutocannon01_proj.bp',
+            ProjectileLifetime = 0.7,
+            ProjectilesPerOnFire = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle_01',
+                        'Turret_Muzzle_02',
+                    },
+                    RackBone = 'Turret_Barrel',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = 0,
+            RackReloadTimeout = 10,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 1.5,
+            TargetCheckInterval = 0.3,
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'AIR MOBILE BOMBER',
+                'AIR MOBILE GROUNDATTACK',
+                'AIR MOBILE TRANSPORTATION',
+                'AIR MOBILE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            TargetRestrictDisallow = 'UNTARGETABLE',
+            TurretBoneMuzzle = 'Turret_Muzzle_01',
+            TurretBonePitch = 'Turret_Barrel',
+            TurretBoneYaw = 'Turret',
+            TurretDualManipulators = false,
+            TurretPitch = 45,
+            TurretPitchRange = 40,
+            TurretPitchSpeed = 180,
+            TurretYaw = 0,
+            TurretYawRange = 180,
+            TurretYawSpeed = 180,
+            Turreted = true,
+            WeaponCategory = 'Anti Air',
+            WeaponUnpacks = false,
+        },
+    },
+}
+
+-- T2 TML
+UnitBlueprint {
+    BlueprintId = "urb2108",
+    Buffs = {
+        { Add = { VeteranLevel2 = true }, BuffType = "MAXHEALTH", Value = 375 },
+        { Add = { VeteranLevel2 = true }, BuffType = "HEALTH", Value = 375 },
+        { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 375 },
+        { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 375 },
+        { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
+    },
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "STRATEGIC",
+        "TECH2",
+        "INDIRECTFIRE",
+        "TACTICALMISSILEPLATFORM",
+        "DRAGBUILD",
+        "SILO",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE",
+        "SHOWATTACKRETICLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 1500, MaxHealth = 1500, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 5100, BuildCostMass = 850, BuildTime = 850, BuildRate = 1 },
+    Footprint = { SizeX = 1, SizeZ = 1 },
+    Intel = { VisionRadius = 24 },
+    Merge = true,
+    Veteran = {
+        Level1 = 15,
+        Level2 = 30,
+        Level3 = 75,
+        Level4 = 150,
+        Level5 = 300,
+    },
+    Weapon = {
+        {
+            BallisticArc = 'RULEUBA_None',
+            Buffs = {
+                {
+                    Add = {
+                        VeteranLevel1 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 1500,
+                },
+                {
+                    Add = {
+                        VeteranLevel3 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 1500,
+                },
+            },
+            CollideFriendly = false,
+            CountedProjectile = true,
+            Damage = 6000,
+            DamageRadius = 2,
+            DamageType = 'Normal',
+            DisplayName = 'Loa Tactical Missile',
+            FiringTolerance = 5,
+            ForceSingleFire = true,
+            InitialProjectileStorage = 0,
+            Label = 'CruiseMissile',
+            ManualFire = true,
+            MaxProjectileStorage = 5,
+            MaxRadius = 128,
+            MinRadius = 15,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            MuzzleVelocity = 10,
+            ProjectileId = '/projectiles/CIFMissileTactical03/CIFMissileTactical03_proj.bp',
+            ProjectileLifetime = 40,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Projectile01',
+                    },
+                    RackBone = 'Projectile01',
+                },
+                {
+                    MuzzleBones = {
+                        'Projectile02',
+                    },
+                    RackBone = 'Projectile02',
+                },
+                {
+                    MuzzleBones = {
+                        'Projectile03',
+                    },
+                    RackBone = 'Projectile03',
+                },
+                {
+                    MuzzleBones = {
+                        'Projectile04',
+                    },
+                    RackBone = 'Projectile04',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = 0,
+            RackReloadTimeout = 10,
+            RackSalvoChargeTime = 1.5,
+            RackSalvoReloadTime = 3.5,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 3,
+            TargetCheckInterval = 0.16,
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'COMMAND',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            TargetRestrictDisallow = 'UNTARGETABLE',
+            TurretDualManipulators = false,
+            TurretPitch = 0,
+            TurretPitchRange = 0,
+            TurretPitchSpeed = 0,
+            TurretYaw = 0,
+            TurretYawRange = 0,
+            TurretYawSpeed = 0,
+            Turreted = false,
+            WeaponCategory = 'Missile',
+            WeaponRepackTimeout = 3.5,
+            WeaponUnpacks = true,
+        },
+    },
+}
+
+-- T1 Torpedo Launcher
+UnitBlueprint {
+    BlueprintId = "urb2109",
+    Buffs = {
+        { Add = { VeteranLevel2 = true }, BuffType = "MAXHEALTH", Value = 1175 },
+        { Add = { VeteranLevel2 = true }, BuffType = "HEALTH", Value = 1175 },
+        { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 1175 },
+        { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 1175 },
+        { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
+    },
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYCOMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH1",
+        "ANTINAVY",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 4700, MaxHealth = 4700, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 4000, BuildCostMass = 600, BuildTime = 500 },
+    Footprint = { MinWaterDepth = 1.5 },
+    Intel = {
+        SonarRadius = 32,
+        VisionRadius = 24,
+    },
+    Merge = true,
+    Veteran = {
+        Level1 = 5,
+        Level2 = 10,
+        Level3 = 25,
+        Level4 = 50,
+        Level5 = 100,
+    },
+    Weapon = {
+        {
+            BallisticArc = 'RULEUBA_LowArc',
+            Buffs = {
+                {
+                    Add = {
+                        VeteranLevel1 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 30,
+                },
+                {
+                    Add = {
+                        VeteranLevel3 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 30,
+                },
+            },
+            CollideFriendly = false,
+            Damage = 120,
+            DamageType = 'Normal',
+            DisplayName = 'Nanite Torpedo',
+            DoTPulses = 5,
+            DoTTime = 1,
+            FiringTolerance = 2,
+            Label = 'Turret01',
+            MaxRadius = 32,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            MuzzleVelocity = 5,
+            ProjectileId = '/projectiles/CANTorpedoNanite01/CANTorpedoNanite01_proj.bp',
+            ProjectileLifetime = 7,
+            ProjectilesPerOnFire = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle',
+                    },
+                    RackBone = 'Turret_Barrel',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = -0.1,
+            RackReloadTimeout = 10,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 0.5,
+            TargetCheckInterval = 1,
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'COMMAND',
+                'MOBILE',
+                'STRUCTURE DEFENSE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            TargetRestrictDisallow = 'UNTARGETABLE, HOVER',
+            TurretBoneMuzzle = 'Turret_Muzzle',
+            TurretBonePitch = 'Turret_Barrel',
+            TurretBoneYaw = 'Turret_Barrel',
+            TurretDualManipulators = false,
+            TurretPitch = -5,
+            TurretPitchRange = 160,
+            TurretPitchSpeed = 35,
+            TurretYaw = 0,
+            TurretYawRange = 360,
+            TurretYawSpeed = 10,
+            Turreted = true,
+            WeaponCategory = 'Anti Navy',
+        },
+    },
+}
+
+-- T2 Flak
+UnitBlueprint {
+    BlueprintId = "urb2204",
+    Buffs = {
+        { Add = { VeteranLevel2 = true }, BuffType = "MAXHEALTH", Value = 975 },
+        { Add = { VeteranLevel2 = true }, BuffType = "HEALTH", Value = 975 },
+        { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 975 },
+        { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 975 },
+        { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
+    },
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH2",
+        "ANTIAIR",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 3900, MaxHealth = 3900, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 5600, BuildCostMass = 560, BuildTime = 700 },
+    Footprint = { MinWaterDepth = 1 },
+    Intel = { VisionRadius = 24 },
+    Merge = true,
+    Veteran = {
+        Level1 = 30,
+        Level2 = 60,
+        Level3 = 150,
+        Level4 = 300,
+        Level5 = 600,
+    },
+    Weapon = {
+        {
+            AlwaysRecheckTarget = true,
+            BallisticArc = 'RULEUBA_None',
+            Buffs = {
+                {
+                    Add = {
+                        VeteranLevel1 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 1,
+                },
+                {
+                    Add = {
+                        VeteranLevel3 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 1,
+                },
+            },
+            CollideFriendly = false,
+            Damage = 5,
+            DamageFriendly = false,
+            DamageRadius = 2,
+            DamageType = 'Normal',
+            DetonatesAtTargetHeight = true,
+            DisplayName = 'Electron Flak',
+            FiringRandomness = 0,
+            FiringTolerance = 2,
+            Label = 'AAGun',
+            MaxRadius = 44,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            MuzzleVelocity = 40,
+            ProjectileId = '/projectiles/CAABurstCloud01/CAABurstCloud01_proj.bp',
+            ProjectileLifetime = 1.4,
+            ProjectilesPerOnFire = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Turret_Recoil01_Muzzle01',
+                        'Turret_Recoil01_Muzzle02',
+                    },
+                    RackBone = 'Turret_Recoil01',
+                },
+                {
+                    MuzzleBones = {
+                        'Turret_Recoil02_Muzzle01',
+                        'Turret_Recoil02_Muzzle02',
+                    },
+                    RackBone = 'Turret_Recoil02',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = -3,
+            RackReloadTimeout = 10,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 1.7,
+            TargetCheckInterval = 0.3,
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'AIR MOBILE BOMBER',
+                'AIR MOBILE GROUNDATTACK',
+                'AIR MOBILE TRANSPORTATION',
+                'AIR MOBILE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            TargetRestrictDisallow = 'UNTARGETABLE',
+            TurretBoneMuzzle = 'Turret_Recoil01_Muzzle01',
+            TurretBonePitch = 'Turret_Barrel',
+            TurretBoneYaw = 'Turret',
+            TurretDualManipulators = false,
+            TurretPitch = 35,
+            TurretPitchRange = 40,
+            TurretPitchSpeed = 180,
+            TurretYaw = 0,
+            TurretYawRange = 180,
+            TurretYawSpeed = 180,
+            Turreted = true,
+            WeaponCategory = 'Anti Air',
+        },
+    },
+}
+
+-- T2 Torpedo Launcher
+UnitBlueprint {
+    BlueprintId = "urb2205",
+    Buffs = {
+        { Add = { VeteranLevel2 = true }, BuffType = "MAXHEALTH", Value = 2875 },
+        { Add = { VeteranLevel2 = true }, BuffType = "HEALTH", Value = 2875 },
+        { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 2875 },
+        { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 2875 },
+        { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
+    },
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH2",
+        "ANTINAVY",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 11500, MaxHealth = 11500, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 9000, BuildCostMass = 1500, BuildTime = 1500 },
+    Footprint = { MinWaterDepth = 1.5, SizeX = 2, SizeZ = 2 },
+    Intel = {
+        RadarStealth = true,
+        SonarRadius = 42,
+        SonarStealth = true,
+        VisionRadius = 32,
+    },
+    Merge = true,
+    Veteran = {
+        Level1 = 10,
+        Level2 = 20,
+        Level3 = 50,
+        Level4 = 100,
+        Level5 = 200,
+    },
+    Weapon = {
+        {
+            BallisticArc = 'RULEUBA_LowArc',
+            Buffs = {
+                {
+                    Add = {
+                        VeteranLevel1 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 75,
+                },
+                {
+                    Add = {
+                        VeteranLevel3 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 75,
+                },
+            },
+            CollideFriendly = false,
+            Damage = 300,
+            DamageType = 'Normal',
+            DisplayName = 'Nanite Torpedo',
+            DoTPulses = 5,
+            DoTTime = 1,
+            FiringTolerance = 2,
+            Label = 'Turret01',
+            MaxRadius = 42,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            MuzzleVelocity = 5,
+            ProjectileId = '/projectiles/CANTorpedoNanite01/CANTorpedoNanite01_proj.bp',
+            ProjectileLifetime = 12,
+            ProjectilesPerOnFire = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle',
+                    },
+                    RackBone = 'Turret_Barrel',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = -0.1,
+            RackReloadTimeout = 10,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 1,
+            TargetCheckInterval = 0.25,
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'COMMAND',
+                'MOBILE',
+                'STRUCTURE DEFENSE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            TargetRestrictDisallow = 'UNTARGETABLE, HOVER',
+            TurretBoneMuzzle = 'Turret_Muzzle',
+            TurretBonePitch = 'Turret_Barrel',
+            TurretBoneYaw = 'Turret_Barrel',
+            TurretDualManipulators = false,
+            TurretPitch = -30,
+            TurretPitchRange = 45,
+            TurretPitchSpeed = 35,
+            TurretYaw = 0,
+            TurretYawRange = 180,
+            TurretYawSpeed = 30,
+            Turreted = true,
+            WeaponCategory = 'Anti Navy',
+        },
+    },
+}
+
+-- T2 PD
+UnitBlueprint {
+    BlueprintId = "urb2301",
+    Buffs = {
+        { Add = { VeteranLevel2 = true }, BuffType = "MAXHEALTH", Value = 500 },
+        { Add = { VeteranLevel2 = true }, BuffType = "HEALTH", Value = 500 },
+        { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 500 },
+        { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 500 },
+        { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
+    },
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH2",
+        "DIRECTFIRE",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 2000, MaxHealth = 2000, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 3400, BuildCostMass = 480, BuildTime = 400 },
+    Footprint = { SizeX = 1, SizeZ = 1 },
+    Intel = { VisionRadius = 28 },
+    Merge = true,
+    Veteran = {
+        Level1 = 30,
+        Level2 = 60,
+        Level3 = 150,
+        Level4 = 300,
+        Level5 = 600,
+    },
+    Weapon = {
+        {
+            BallisticArc = 'RULEUBA_None',
+            BeamCollisionDelay = 0.2,
+            BeamLifetime = 0.6,
+            Buffs = {
+                {
+                    Add = {
+                        VeteranLevel1 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 2,
+                },
+                {
+                    Add = {
+                        VeteranLevel3 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 2,
+                },
+            },
+            CollideFriendly = false,
+            Damage = 9,
+            DamageFriendly = false,
+            DamageType = 'Normal',
+            DisplayName = 'Particle Cannon',
+            FiringRandomness = 0,
+            FiringTolerance = 2,
+            Label = 'MainGun',
+            MaxRadius = 50,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle01',
+                        'Turret_Muzzle02',
+                        'Turret_Muzzle03',
+                    },
+                    RackBone = 'Turret_B02',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = -1,
+            RackReloadTimeout = 10,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 1.5,
+            TargetCheckInterval = 0.3,
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'COMMAND',
+                'MOBILE',
+                'STRUCTURE DEFENSE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            TargetRestrictDisallow = 'UNTARGETABLE',
+            TurretBoneMuzzle = 'Turret_Muzzle01',
+            TurretBonePitch = 'Turret_B02',
+            TurretBoneYaw = 'Turret_B01',
+            TurretDualManipulators = false,
+            TurretPitch = 10,
+            TurretPitchRange = 55,
+            TurretPitchSpeed = 60,
+            TurretYaw = 0,
+            TurretYawRange = 180,
+            TurretYawSpeed = 60,
+            Turreted = true,
+            WeaponCategory = 'Direct Fire',
+        },
+    },
+}
+
+-- T3 Arty
+UnitBlueprint {
+    BlueprintId = "urb2302",
+    Buffs = {
+        { Add = { VeteranLevel2 = true }, BuffType = "MAXHEALTH", Value = 875 },
+        { Add = { VeteranLevel2 = true }, BuffType = "HEALTH", Value = 875 },
+        { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 875 },
+        { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 875 },
+        { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
+    },
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "STRATEGIC",
+        "TECH3",
+        "INDIRECTFIRE",
+        "ARTILLERY",
+        "DRAGBUILD",
+        "SIZE16",
+        "VISIBLETORECON",
+        "RECLAIMABLE",
+        "SHOWATTACKRETICLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 3500, MaxHealth = 3500, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 1184625,
+        BuildCostMass = 98415,
+        BuildTime = 27000,
+        RebuildBonusIds = {
+            'urb2302',
+        },
+    },
+    Footprint = { SizeX = 5, SizeZ = 5 },
+    Intel = {
+        VisionRadius = 28,
+    },
+    Merge = true,
+    Veteran = {
+        Level1 = 50,
+        Level2 = 100,
+        Level3 = 250,
+        Level4 = 500,
+        Level5 = 1000,
+    },
+    Weapon = {
+        {
+            BallisticArc = 'RULEUBA_HighArc',
+            Buffs = {
+                {
+                    Add = {
+                        VeteranLevel1 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 1750,
+                },
+                {
+                    Add = {
+                        VeteranLevel3 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 1750,
+                },
+            },
+            CameraShakeDuration = 0.5,
+            CameraShakeMax = 2,
+            CameraShakeMin = 0,
+            CameraShakeRadius = 50,
+            CollideFriendly = false,
+            Damage = 7000,
+            DamageFriendly = true,
+            DamageRadius = 8,
+            DamageType = 'Normal',
+            DisplayName = 'Proton Artillery',
+            EnergyDrainPerSecond = 250,
+            EnergyRequired = 2500,
+            FiringRandomness = 1.5,
+            FiringTolerance = 2,
+            Label = 'MainGun',
+            MaxRadius = 700,
+            MinRadius = 150,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            MuzzleVelocity = 60,
+            MuzzleVelocityReduceDistance = 650,
+            ProjectileId = '/projectiles/CIFArtilleryProton01/CIFArtilleryProton01_proj.bp',
+            ProjectileLifetime = 120,
+            ProjectilesPerOnFire = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle',
+                    },
+                    RackBone = 'Barrel_B01',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = -7,
+            RackReloadTimeout = 0,
+            RackSalvoChargeTime = 0,
+            RackSalvoFiresAfterCharge = false,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 0.0625,
+            RenderFireClock = true,
+            TargetCheckInterval = 8,
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'COMMAND',
+                'STRUCTURE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            TargetRestrictDisallow = 'UNTARGETABLE',
+            TurretBoneMuzzle = 'Turret_Muzzle',
+            TurretBonePitch = 'Turret_Barrel',
+            TurretBoneYaw = 'Turret',
+            TurretDualManipulators = false,
+            TurretPitch = 30,
+            TurretPitchRange = 30,
+            TurretPitchSpeed = 3,
+            TurretYaw = 0,
+            TurretYawRange = 180,
+            TurretYawSpeed = 3,
+            Turreted = true,
+            WeaponCategory = 'Artillery',
+        },
+    },
+}
+
+-- T2 Arty
+UnitBlueprint {
+    BlueprintId = "urb2303",
+    Buffs = {
+        { Add = { VeteranLevel2 = true }, BuffType = "MAXHEALTH", Value = 788 },
+        { Add = { VeteranLevel2 = true }, BuffType = "HEALTH", Value = 788 },
+        { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 788 },
+        { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 788 },
+        { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
+    },
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "STRATEGIC",
+        "TECH2",
+        "INDIRECTFIRE",
+        "ARTILLERY",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "SHOWATTACKRETICLE",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 3150, MaxHealth = 3150, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 16000, BuildCostMass = 2240, BuildTime = 1600 },
+    Intel = { VisionRadius = 28 },
+    Merge = true,
+    Veteran = {
+        Level1 = 30,
+        Level2 = 60,
+        Level3 = 150,
+        Level4 = 300,
+        Level5 = 600,
+    },
+    Weapon = {
+        {
+            ArtilleryShieldBlocks = true,
+            BallisticArc = 'RULEUBA_LowArc',
+            Buffs = {
+                {
+                    Add = {
+                        VeteranLevel1 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 250,
+                },
+                {
+                    Add = {
+                        VeteranLevel3 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 250,
+                },
+            },
+            CollideFriendly = false,
+            Damage = 1750,
+            DamageFriendly = true,
+            DamageRadius = 4,
+            DamageType = 'Normal',
+            DisplayName = 'Resonance Artillery',
+            EnergyDrainPerSecond = 62.5,
+            EnergyRequired = 1250,
+            FiringRandomness = 2.5,
+            FiringTolerance = 1,
+            Label = 'MainGun',
+            MaxRadius = 128,
+            MinRadius = 5,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            MuzzleVelocity = 26.13,
+            ProjectileId = '/projectiles/CIFMolecularResonanceShell01/CIFMolecularResonanceShell01_proj.bp',
+            ProjectilesPerOnFire = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle',
+                    },
+                    RackBone = 'Turret_Recoil',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = -1,
+            RackReloadTimeout = 14,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 2,
+            RenderFireClock = false,
+            TargetCheckInterval = 4,
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'COMMAND',
+                'STRUCTURE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            TargetRestrictDisallow = 'UNTARGETABLE',
+            TurretBoneMuzzle = 'Turret_Muzzle',
+            TurretBonePitch = 'Turret_Barrel',
+            TurretBoneYaw = 'Turret',
+            TurretDualManipulators = false,
+            TurretPitch = 30,
+            TurretPitchRange = 60,
+            TurretPitchSpeed = 6,
+            TurretYaw = 0,
+            TurretYawRange = 180,
+            TurretYawSpeed = 6,
+            Turreted = true,
+            WeaponCategory = 'Artillery',
+        },
+    },
+}
+
+-- T3 AA
+UnitBlueprint {
+    BlueprintId = "urb2304",
+    Buffs = {
+        { Add = { VeteranLevel2 = true }, BuffType = "MAXHEALTH", Value = 1250 },
+        { Add = { VeteranLevel2 = true }, BuffType = "HEALTH", Value = 1250 },
+        { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 1250 },
+        { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 1250 },
+        { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
+    },
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH3",
+        "ANTIAIR",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 5000, MaxHealth = 5000, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 12000, BuildCostMass = 1400, BuildTime = 1500 },
+    Footprint = { MinWaterDepth = 1 },
+    Intel = { VisionRadius = 28 },
+    Merge = true,
+    Veteran = {
+        Level1 = 50,
+        Level2 = 100,
+        Level3 = 250,
+        Level4 = 500,
+        Level5 = 1000,
+    },
+    Weapon = {
+        {
+            AlwaysRecheckTarget = true,
+            BallisticArc = 'RULEUBA_None',
+            Buffs = {
+                {
+                    Add = {
+                        VeteranLevel1 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 6,
+                },
+                {
+                    Add = {
+                        VeteranLevel3 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 6,
+                },
+            },
+            CollideFriendly = false,
+            Damage = 24,
+            DamageType = 'Normal',
+            DisplayName = 'Nanite Missile System',
+            EnergyDrainPerSecond = 0,
+            EnergyRequired = 0,
+            FiringTolerance = 10,
+            Label = 'Missile01',
+            MaxRadius = 60,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            MuzzleVelocity = 25,
+            ProjectileId = '/projectiles/CAAMissileNanite02/CAAMissileNanite02_proj.bp',
+            ProjectileLifetime = 3,
+            ProjectilesPerOnFire = 4,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Turret_Left_Muzzle01',
+                        'Turret_Left_Muzzle02',
+                        'Turret_Left_Muzzle03',
+                        'Turret_Left_Muzzle04',
+                    },
+                    RackBone = 'Turret_Left_Muzzle01',
+                },
+                {
+                    MuzzleBones = {
+                        'Turret_Right_Muzzle01',
+                        'Turret_Right_Muzzle02',
+                        'Turret_Right_Muzzle03',
+                        'Turret_Right_Muzzle04',
+                    },
+                    RackBone = 'Turret_Right_Muzzle01',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = 0,
+            RackReloadTimeout = 10,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 1.5,
+            TargetCheckInterval = 0.3,
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'AIR MOBILE BOMBER',
+                'AIR MOBILE GROUNDATTACK',
+                'AIR MOBILE TRANSPORTATION',
+                'AIR MOBILE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            TargetRestrictDisallow = 'UNTARGETABLE',
+            TurretBoneMuzzle = 'Turret_Left_Muzzle01',
+            TurretBonePitch = 'Turret_Barrel',
+            TurretBoneYaw = 'Turret',
+            TurretDualManipulators = false,
+            TurretPitch = 25,
+            TurretPitchRange = 40,
+            TurretPitchSpeed = 180,
+            TurretYaw = 0,
+            TurretYawRange = 180,
+            TurretYawSpeed = 180,
+            Turreted = true,
+            WeaponCategory = 'Anti Air',
+        },
+    },
+}
+
+-- T3 Nuke
+UnitBlueprint {
+    BlueprintId = "urb2305",
+    Buffs = {
+        { Add = { VeteranLevel2 = true }, BuffType = "MAXHEALTH", Value = 2160 },
+        { Add = { VeteranLevel2 = true }, BuffType = "HEALTH", Value = 2160 },
+        { Add = { VeteranLevel4 = true }, BuffType = "MAXHEALTH", Value = 2160 },
+        { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 2160 },
+        { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
+    },
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "STRATEGIC",
+        "TECH3",
+        "NUKE",
+        "SILO",
+        "DRAGBUILD",
+        "SIZE12",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 8640, MaxHealth = 8640, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 1250000, BuildCostMass = 130000, BuildTime = 75000, BuildRate = 1 },
+    Intel = { VisionRadius = 28 },
+    Merge = true,
+    Veteran = {
+        Level1 = 100,
+        Level2 = 200,
+        Level3 = 500,
+        Level4 = 1000,
+        Level5 = 2000,
+    },
+    Weapon = {
+        {
+            BallisticArc = 'RULEUBA_None',
+            Buffs = {
+                {
+                    Add = {
+                        OnImpact = true,
+                    },
+                    AppliedToTarget = true,
+                    BuffType = 'STUN',
+                    Duration = 15,
+                    Radius = 40,
+                    TargetAllow = 'ALLUNITS',
+                },
+            },
+            CollideFriendly = false,
+            CountedProjectile = true,
+            Damage = 0,
+            DamageType = 'Normal',
+            DisplayName = 'EMP Flux Warhead',
+            EnergyDrainPerSecond = 0,
+            EnergyRequired = 0,
+            FiringTolerance = 2,
+            ForceSingleFire = true,
+            InitialProjectileStorage = 0,
+            Label = 'NukeMissiles',
+            ManualFire = 1,
+            MaxProjectileStorage = 5,
+            MaxRadius = 20000,
+            MinRadius = 0,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            MuzzleVelocity = 0,
+            NukeInnerRingDamage = 70000,
+            NukeInnerRingRadius = 30,
+            NukeInnerRingTicks = 24,
+            NukeInnerRingTotalTime = 24,
+            NukeOuterRingDamage = 500,
+            NukeOuterRingRadius = 40,
+            NukeOuterRingTicks = 20,
+            NukeOuterRingTotalTime = 10,
+            NukeWeapon = true,
+            ProjectileId = '/projectiles/CIFEMPFluxWarhead01/CIFEMPFluxWarhead01_proj.bp',
+            ProjectilesPerOnFire = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Projectile',
+                    },
+                    RackBone = 'Projectile',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = 0,
+            RackReloadTimeout = 0,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 1,
+            TargetCheckInterval = 0.5,
+            TargetRestrictDisallow = 'UNTARGETABLE',
+            TurretDualManipulators = false,
+            TurretPitch = 0,
+            TurretPitchRange = 0,
+            TurretPitchSpeed = 0,
+            TurretYaw = 0,
+            TurretYawRange = 0,
+            TurretYawSpeed = 0,
+            Turreted = false,
+            WeaponCategory = 'Missile',
+            WeaponRepackTimeout = 5,
+            WeaponUnpackAnimation = '/units/urb2305/urb2305_aactivate.sca',
+            WeaponUnpackAnimationRate = 1,
+            WeaponUnpacks = true,
+        },
+    },
+}
+
+-- T1 Radar
+UnitBlueprint {
+    BlueprintId = "urb3101",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "INTELLIGENCE",
+        "TECH1",
+        "RADAR",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 10, MaxHealth = 10, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 720,
+        BuildCostMass = 80,
+        BuildRate = 10,
+        BuildTime = 80,
+        BuildableCategory = { "urb3201" },
+        MaintenanceConsumptionPerSecondEnergy = 20
+    },
+    Footprint = { SizeX = 1, SizeZ = 1 },
+    Intel = {
+        RadarRadius = 115,
+        ShowIntelOnSelect = true,
+        VisionRadius = 20,
+    },
+    Merge = true,
+}
+
+-- T1 Sonar
+UnitBlueprint {
+    BlueprintId = "urb3102",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "INTELLIGENCE",
+        "TECH1",
+        "SONAR",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 400, MaxHealth = 400, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 544,
+        BuildCostMass = 64,
+        BuildRate = 10,
+        BuildTime = 80,
+        BuildableCategory = { "urb3202" },
+        MaintenanceConsumptionPerSecondEnergy = 10
+    },
+    Footprint = { MinWaterDepth = 1.5 },
+    Intel = {
+        ShowIntelOnSelect = true,
+        SonarRadius = 115,
+        VisionRadius = 20,
+    },
+    Merge = true,
+}
+
+-- T1 Desplyed Mole #unused
+UnitBlueprint {
+    BlueprintId = "urb3103",
+    Categories = {
+        "SELECTABLE",
+        "CYBRAN",
+        "STRUCTURE",
+        "INTELLIGENCE",
+        "TECH1",
+        "RADAR",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 1, MaxHealth = 1, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 320,
+        BuildCostMass = 32,
+        BuildTime = 80,
+        MaintenanceConsumptionPerSecondEnergy = 20
+    },
+    Intel = { RadarStealth = true, ShowIntelOnSelect = true, VisionRadius = 60 },
+    Merge = true,
+}
+
+-- T3 Omni
+UnitBlueprint {
+    BlueprintId = "urb3104",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "INTELLIGENCE",
+        "TECH3",
+        "OMNI",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 100, MaxHealth = 100, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 30000,
+        BuildCostMass = 2400,
+        BuildTime = 1800,
+        MaintenanceConsumptionPerSecondEnergy = 2000
+    },
+    Footprint = { SizeX = 1, SizeZ = 1 },
+    Intel = {
+        OmniRadius = 200,
+        RadarRadius = 600,
+        ShowIntelOnSelect = true,
+        VisionRadius = 30,
+    },
+    Merge = true,
+}
+
+-- T2 Radar
+UnitBlueprint {
+    BlueprintId = "urb3201",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "INTELLIGENCE",
+        "TECH2",
+        "RADAR",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 50, MaxHealth = 50, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 3600,
+        BuildCostMass = 180,
+        BuildRate = 15,
+        BuildTime = 600,
+        BuildableCategory = { "urb3104" },
+        MaintenanceConsumptionPerSecondEnergy = 250
+    },
+    Footprint = { SizeX = 1, SizeZ = 1 },
+    Intel = {
+        RadarRadius = 200,
+        ShowIntelOnSelect = true,
+        VisionRadius = 25,
+    },
+    Merge = true,
+}
+
+-- T2 Sonar
+UnitBlueprint {
+    BlueprintId = "urb3202",
+    Categories = {
+        "SELECTABLE",
+        "CYBRAN",
+        "STRUCTURE",
+        "INTELLIGENCE",
+        "TECH2",
+        "SONAR",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 625, MaxHealth = 625, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 3600,
+        BuildCostMass = 120,
+        BuildRate = 15,
+        BuildTime = 600,
+        BuildableCategory = { "urs0305" },
+        MaintenanceConsumptionPerSecondEnergy = 100
+    },
+    Footprint = { MinWaterDepth = 1.5 },
+    Intel = {
+        ShowIntelOnSelect = true,
+        SonarRadius = 230,
+        VisionRadius = 25,
+    },
+    Merge = true,
+}
+
+-- T2 TMD
+UnitBlueprint {
+    BlueprintId = "urb4201",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH2",
+        "ANTIMISSILE",
+        "DRAGBUILD",
+        "SIZE4",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 3000, MaxHealth = 3000, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 3200,
+        BuildCostMass = 280,
+        BuildTime = 400,
+        RebuildBonusIds = {
+            'urb4201',
+        },
+    },
+    Footprint = { MinWaterDepth = 1 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+    Weapon = {
+        {
+            BallisticArc = 'RULEUBA_None',
+            BeamCollisionDelay = 0.1,
+            BeamLifetime = 0.1,
+            CollideFriendly = false,
+            Damage = 2,
+            DamageType = 'Normal',
+            DisplayName = 'Zapper Anti Missile',
+            FiringTolerance = 0.5,
+            Label = 'Turret01',
+            MaxRadius = 32,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            NeedPrep = true,
+            ProjectilesPerOnFire = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle',
+                    },
+                    RackBone = 'Turret_Muzzle',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = 0,
+            RackReloadTimeout = 10,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RateOfFire = 2.2,
+            TargetCheckInterval = 0.25,
+            TargetRestrictDisallow = 'UNTARGETABLE',
+            TargetRestrictOnlyAllow = 'TACTICAL MISSILE',
+            TurretBoneMuzzle = 'Turret_Muzzle',
+            TurretBonePitch = 'Turret_Muzzle',
+            TurretBoneYaw = 'Turret',
+            TurretDualManipulators = false,
+            TurretPitch = 0,
+            TurretPitchRange = 170,
+            TurretPitchSpeed = 360,
+            TurretYaw = 0,
+            TurretYawRange = 360,
+            TurretYawSpeed = 360,
+            Turreted = true,
+            WeaponCategory = 'Defense',
+        },
+    },
+}
+
+-- T2 Shield ED1
+UnitBlueprint {
+    BlueprintId = "urb4202",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH2",
+        "SHIELD",
+        "DRAGBUILD",
+        "SIZE12",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = {
+        ArmorType = 'Normal',
+        Health = 500,
+        MaxHealth = 500,
+        RegenRate = 0,
+        Shield = {
+            ShieldEnergyDrainRechargeTime = 5,
+            ShieldMaxHealth = 4000,
+            ShieldRechargeTime = 18,
+            ShieldRegenRate = 800,
+            ShieldRegenStartTime = 13,
+            ShieldSize = 18,
+            ShieldVerticalOffset = -3,
+        },
+    },
+    Economy = {
+        BuildCostEnergy = 2000,
+        BuildCostMass = 160,
+        BuildRate = 10,
+        BuildTime = 400,
+        BuildableCategory = { "urb4204" },
+        MaintenanceConsumptionPerSecondEnergy = 100
+    },
+    Footprint = { SizeX = 1, SizeZ = 1 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T2 Stealth
+UnitBlueprint {
+    BlueprintId = "urb4203",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "INTELLIGENCE",
+        "TECH2",
+        "COUNTERINTELLIGENCE",
+        "DRAGBUILD",
+        "SIZE12",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 50, MaxHealth = 50, RegenRate = 0 },
+    Economy = {
+        BuildCostEnergy = 4000,
+        BuildCostMass = 320,
+        BuildTime = 800,
+        MaintenanceConsumptionPerSecondEnergy = 150
+    },
+    Footprint = { SizeX = 3, SizeZ = 3 },
+    Intel = {
+        RadarStealthFieldRadius = 24,
+        VisionRadius = 20,
+    },
+    Merge = true,
+}
+
+-- T2 Shield ED2
+UnitBlueprint {
+    BlueprintId = "urb4204",
+    Categories = {
+        "SELECTABLE",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH2",
+        "SHIELD",
+        "DRAGBUILD",
+        "SIZE12",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = {
+        ArmorType = 'Normal',
+        Health = 500,
+        MaxHealth = 500,
+        RegenRate = 0,
+        Shield = {
+            ShieldMaxHealth = 7000,
+            ShieldRechargeTime = 16,
+            ShieldRegenRate = 1400,
+            ShieldRegenStartTime = 14,
+            ShieldSize = 22,
+            ShieldVerticalOffset = -3,
+        },
+    },
+    Economy = {
+        BuildCostEnergy = 3000,
+        BuildCostMass = 300,
+        BuildRate = 10,
+        BuildTime = 300,
+        BuildableCategory = { "urb4205" },
+        MaintenanceConsumptionPerSecondEnergy = 200
+    },
+    Footprint = { SizeX = 1, SizeZ = 1 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T2 Shield ED3
+UnitBlueprint {
+    BlueprintId = "urb4205",
+    Categories = {
+        "SELECTABLE",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH2",
+        "SHIELD",
+        "DRAGBUILD",
+        "SIZE12",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = {
+        ArmorType = 'Normal',
+        Health = 500,
+        MaxHealth = 500,
+        RegenRate = 0,
+        Shield = {
+            ShieldEnergyDrainRechargeTime = 5,
+            ShieldMaxHealth = 10000,
+            ShieldRechargeTime = 18,
+            ShieldRegenRate = 2000,
+            ShieldRegenStartTime = 16,
+            ShieldSize = 28,
+            ShieldVerticalOffset = -4,
+        },
+    },
+    Economy = {
+        BuildCostEnergy = 15000,
+        BuildCostMass = 1000,
+        BuildRate = 10,
+        BuildTime = 1000,
+        BuildableCategory = { "urb4206" },
+        MaintenanceConsumptionPerSecondEnergy = 300
+    },
+    Footprint = { SizeX = 1, SizeZ = 1 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T2 Shield ED4
+UnitBlueprint {
+    BlueprintId = "urb4206",
+    Categories = {
+        "SELECTABLE",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH2",
+        "SHIELD",
+        "DRAGBUILD",
+        "SIZE12",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = {
+        ArmorType = 'Normal',
+        Health = 500,
+        MaxHealth = 500,
+        RegenRate = 0,
+        Shield = {
+            ShieldEnergyDrainRechargeTime = 5,
+            ShieldMaxHealth = 13000,
+            ShieldRechargeTime = 20,
+            ShieldRegenRate = 2600,
+            ShieldRegenStartTime = 18,
+            ShieldSize = 34,
+            ShieldVerticalOffset = -5,
+        },
+    },
+    Economy = {
+        BuildCostEnergy = 30000,
+        BuildCostMass = 1500,
+        BuildRate = 10,
+        BuildTime = 1500,
+        BuildableCategory = { "urb4207" },
+        MaintenanceConsumptionPerSecondEnergy = 400
+    },
+    Footprint = { SizeX = 1, SizeZ = 1 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T2 Shield ED5
+UnitBlueprint {
+    BlueprintId = "urb4207",
+    Categories = {
+        "SELECTABLE",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH2",
+        "SHIELD",
+        "DRAGBUILD",
+        "SIZE12",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = {
+        ArmorType = 'Normal',
+        Health = 500,
+        MaxHealth = 500,
+        RegenRate = 0,
+        Shield = {
+            ShieldEnergyDrainRechargeTime = 5,
+            ShieldMaxHealth = 14000,
+            ShieldRechargeTime = 22,
+            ShieldRegenRate = 2800,
+            ShieldRegenStartTime = 20,
+            ShieldSize = 40,
+            ShieldVerticalOffset = -6,
+        },
+    },
+    Economy = {
+        BuildCostEnergy = 50000,
+        BuildCostMass = 3000,
+        BuildTime = 2000,
+        MaintenanceConsumptionPerSecondEnergy = 500
+    },
+    Footprint = { SizeX = 1, SizeZ = 1 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+}
+
+-- T3 Anti Nuke
+UnitBlueprint {
+    BlueprintId = "urb4302",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH3",
+        "ANTIMISSILE",
+        "SILO",
+        "DRAGBUILD",
+        "SIZE8",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 4000, MaxHealth = 4000, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 240000, BuildCostMass = 21000, BuildTime = 9000, BuildRate = 1 },
+    Footprint = { SizeX = 2, SizeZ = 2 },
+    Intel = { VisionRadius = 20 },
+    Merge = true,
+    Weapon = {
+        {
+            AlwaysRecheckTarget = false,
+            BallisticArc = 'RULEUBA_None',
+            CollideFriendly = false,
+            CountedProjectile = true,
+            Damage = 30,
+            DamageType = 'Normal',
+            DisplayName = 'EMP Anti Nuke',
+            EffectiveRadius = 75,
+            FiringTolerance = 5,
+            ForceSingleFire = true,
+            InitialProjectileStorage = 0,
+            Label = 'MissileRack',
+            MaxProjectileStorage = 10,
+            MaxRadius = 75,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            MuzzleVelocity = 60,
+            ProjectileId = '/projectiles/CAADissidentAntiNuke01/CAADissidentAntiNuke01_proj.bp',
+            ProjectilesPerOnFire = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Missile_Attachpoint',
+                    },
+                    RackBone = 'URB4302',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = 0,
+            RackReloadTimeout = 0,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 1,
+            TargetCheckInterval = 0.1,
+            TargetRestrictDisallow = 'UNTARGETABLE',
+            TargetRestrictOnlyAllow = 'STRATEGIC MISSILE',
+            TargetType = 'RULEWTT_Projectile',
+            Turreted = false,
+            WeaponCategory = 'Defense',
+            WeaponRepackTimeout = 7,
+            WeaponUnpackAnimation = '/units/urb4302/urb4302_Aopen.sca',
+            WeaponUnpackAnimationRate = 4.45,
+            WeaponUnpacks = true,
+        },
+    },
+}
+
+-- Wall
+UnitBlueprint {
+    BlueprintId = "urb5101",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER1ENGINEER",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYCOMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "DEFENSE",
+        "TECH1",
+        "WALL",
+        "DRAGBUILD",
+        "BENIGN",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 4000, MaxHealth = 4000, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 10, BuildCostMass = 2, BuildTime = 10 },
+    Intel = { VisionRadius = 0 },
+    Merge = true,
+}
+
+-- T2 Air Staging
+UnitBlueprint {
+    BlueprintId = "urb5202",
+    Categories = {
+        "SELECTABLE",
+        "BUILTBYTIER2ENGINEER",
+        "BUILTBYTIER3ENGINEER",
+        "BUILTBYTIER2COMMANDER",
+        "BUILTBYTIER3COMMANDER",
+        "CYBRAN",
+        "STRUCTURE",
+        "STRATEGIC",
+        "TECH2",
+        "AIRSTAGINGPLATFORM",
+        "DRAGBUILD",
+        "SIZE12",
+        "VISIBLETORECON",
+        "RECLAIMABLE"
+    },
+    Defense = { ArmorType = "Normal", Health = 500, MaxHealth = 500, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 2100, BuildCostMass = 350, BuildTime = 350 },
+    Merge = true,
+}

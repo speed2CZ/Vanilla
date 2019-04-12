@@ -1,5 +1,8 @@
 Changelog
 
+# v3 (12.4.2019)
+- T1 Mass Fabs are buildable by T1 Engineer and ACU again.
+
 # v2 (12.4.2019)
 - Added old veterancy buffs instead of global ones (buffing max health and weapon demage).
 - Fixed Aeon Cruiser and Carrier AA Guns.

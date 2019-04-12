@@ -1710,9 +1710,17 @@ UnitBlueprint {
             ProjectileLifetime = 2.5,
             RackBones = {
                 {
-                    MuzzleBones = { "Turret_Down_Muzzle_01" },
-                    RackBone = "Turret_Down_Barrel_01"
-                }
+                    MuzzleBones = {
+                        'Turret_Down_Muzzle_01',
+                    },
+                    RackBone = 'Turret_Down_Barrel_01',
+                },
+                {
+                    MuzzleBones = {
+                        'Turret_Down_Muzzle_02',
+                    },
+                    RackBone = 'Turret_Down_Barrel_02',
+                },
             },
             RackFireTogether = false,
             RackRecoilDistance = 0,
@@ -1733,61 +1741,6 @@ UnitBlueprint {
             TurretBoneMuzzle = "Turret_Down_Muzzle_01",
             TurretBonePitch = "Turret_Down_01",
             TurretBoneYaw = "Turret_Down_01",
-            TurretDualManipulators = false,
-            TurretPitch = -45,
-            TurretPitchRange = 70,
-            TurretPitchSpeed = 90,
-            TurretYaw = 0,
-            TurretYawRange = 180,
-            TurretYawSpeed = 90,
-            Turreted = true,
-            WeaponCategory = "Direct Fire"
-        },
-        {
-            Audio = { },
-            AutoInitiateAttackCommand = true,
-            BallisticArc = "RULEUBA_LowArc",
-            Buffs = {
-                { Add = { VeteranLevel1 = true }, BuffType = "DAMAGE", Value = 21 },
-                { Add = { VeteranLevel3 = true }, BuffType = "DAMAGE", Value = 21 }
-            },
-            CollideFriendly = false,
-            Damage = 82,
-            DamageType = "Normal",
-            DisplayName = "Heavy Plasma Cannon",
-            FiringTolerance = 2,
-            Label = "Plasma02",
-            MaxRadius = 25,
-            MuzzleSalvoDelay = 0,
-            MuzzleSalvoSize = 1,
-            MuzzleVelocity = 12,
-            ProjectileId = "/projectiles/TDFPlasmaHeavy02/TDFPlasmaHeavy02_proj.bp",
-            ProjectileLifetime = 2.5,
-            RackBones = {
-                {
-                    MuzzleBones = { "Turret_Down_Muzzle_02" },
-                    RackBone = "Turret_Down_Barrel_02"
-                }
-            },
-            RackFireTogether = false,
-            RackRecoilDistance = 0,
-            RackReloadTimeout = 10,
-            RackSalvoChargeTime = 0,
-            RackSalvoReloadTime = 0,
-            RackSalvoSize = 1,
-            RackSlavedToTurret = false,
-            RateOfFire = 2.2,
-            TargetCheckInterval = 0.27,
-            TargetPriorities = {
-                "SPECIALHIGHPRI",
-                "COMMAND",
-                "SPECIALLOWPRI",
-                "ALLUNITS"
-            },
-            TargetRestrictDisallow = "HIGHALTAIR, UNTARGETABLE",
-            TurretBoneMuzzle = "Turret_Down_Muzzle_02",
-            TurretBonePitch = "Turret_Down_02",
-            TurretBoneYaw = "Turret_Down_02",
             TurretDualManipulators = false,
             TurretPitch = -45,
             TurretPitchRange = 70,

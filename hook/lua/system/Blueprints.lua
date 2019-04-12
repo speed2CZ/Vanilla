@@ -17,6 +17,30 @@ function ModBlueprints(all_blueprints)
         table.removeByValue(harb.Display.Abilities, '<LOC ability_personalshield>Personal Shield')
     end
 
+    -- Aeon T2 Torp Launcher
+    -- Different RackBones
+    local unit = all_blueprints.Unit['uab2205']
+    if unit and unit.Weapon and unit.Weapon[1] and unit.Weapon[1].RackBones then
+        unit.Weapon[1].RackBones = {
+            { MuzzleBones = { "Turret_Muzzle_01" }, RackBone = "Turret_Barrel" },
+            { MuzzleBones = { "Turret_Muzzle_02" }, RackBone = "Turret_Barrel" },
+            { MuzzleBones = { "Turret_Muzzle_03" }, RackBone = "Turret_Barrel" },
+            { MuzzleBones = { "Turret_Muzzle_04" }, RackBone = "Turret_Barrel" }
+        }
+    end
+
+    -- UEF T2 Torp Launcher
+    -- Different RackBones
+    local unit = all_blueprints.Unit['ueb2205']
+    if unit and unit.Weapon and unit.Weapon[1] and unit.Weapon[1].RackBones then
+        unit.Weapon[1].RackBones = {
+            { MuzzleBones = { "Turret_Muzzle01" }, RackBone = "Turret_Muzzle01" },
+            { MuzzleBones = { "Turret_Muzzle02" }, RackBone = "Turret_Muzzle02" },
+            { MuzzleBones = { "Turret_Muzzle03" }, RackBone = "Turret_Muzzle03" },
+            { MuzzleBones = { "Turret_Muzzle04" }, RackBone = "Turret_Muzzle04" }
+        }
+    end
+
     -- now we loop over every UNIT blueprint
     for id,bp in all_blueprints.Unit do
         -- id = init ID. example: url0103

@@ -952,7 +952,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 15,
-            ProjectileId = '/projectiles/AAAMissileTransilience01/AAAMissileTransilience01_proj.bp',
+            ProjectileId = '/projectiles/AAAZealotMissile01/AAAZealotMissile01_proj.bp',
             ProjectileLifetime = 12,
             ProjectilesPerOnFire = 1,
             RackBones = {
@@ -1027,7 +1027,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 15,
-            ProjectileId = '/projectiles/AAAMissileTransilience01/AAAMissileTransilience01_proj.bp',
+            ProjectileId = '/projectiles/AAAZealotMissile01/AAAZealotMissile01_proj.bp',
             ProjectileLifetime = 12,
             ProjectilesPerOnFire = 1,
             RackBones = {
@@ -1743,7 +1743,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 15,
-            ProjectileId = '/projectiles/AAAMissileTransilience01/AAAMissileTransilience01_proj.bp',
+            ProjectileId = '/projectiles/AAAZealotMissile01/AAAZealotMissile01_proj.bp',
             ProjectileLifetime = 6,
             RackBones = {
                 {
@@ -1817,7 +1817,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 15,
-            ProjectileId = '/projectiles/AAAMissileTransilience01/AAAMissileTransilience01_proj.bp',
+            ProjectileId = '/projectiles/AAAZealotMissile01/AAAZealotMissile01_proj.bp',
             ProjectileLifetime = 6,
             RackBones = {
                 {

@@ -29,6 +29,31 @@ function ModBlueprints(all_blueprints)
         }
     end
 
+    -- Cybran T2 Fighter Bomber
+    -- Remove AA weapon
+    local unit = all_blueprints.Unit['dra0202']
+    if unit and unit.Weapon and unit.Weapon[1] then
+        table.remove(unit.Weapon, 1)
+    end
+
+    -- Cybran T2 Rocket Bot
+    -- Different RackBones
+    local unit = all_blueprints.Unit['drl0204']
+    if unit and unit.Weapon and unit.Weapon[1] and unit.Weapon[1].RackBones then
+        unit.Weapon[1].RackBones = {
+            { MuzzleBones = { "Turret_Muzzle_01", "Turret_Muzzle_02" }, RackBone = "Turret_Barrel" },
+        }
+    end
+
+    -- UEF T2 Fighter Bomber
+    -- Remove 2 AA weapons
+    local unit = all_blueprints.Unit['dea0202']
+    for i = 1, 2 do
+        if unit and unit.Weapon and unit.Weapon[1] then
+            table.remove(unit.Weapon, 1)
+        end
+    end
+
     -- UEF T2 Torp Launcher
     -- Different RackBones
     local unit = all_blueprints.Unit['ueb2205']
@@ -93,4 +118,4 @@ function ModBlueprints(all_blueprints)
     end
 end
 
--- SimLua do LOG(repr(ArmyBrains[1]:GetListOfUnits(categories.urs0201, false)[1]:GetBlueprint())) end
+-- SimLua do LOG(repr(ArmyBrains[1]:GetListOfUnits(categories.dra0202, false)[1]:GetBlueprint())) end

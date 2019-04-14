@@ -18,6 +18,7 @@ UnitBlueprint {
         StorageMass = 80
     },
     Footprint = { SizeX = 5, SizeZ = 5 },
+    General = { UpgradesFromBase = "none" },
     Intel = { VisionRadius = 20 },
     Merge = true,
 }
@@ -42,6 +43,7 @@ UnitBlueprint {
         StorageMass = 80
     },
     Footprint = { SizeX = 5, SizeZ = 5 },
+    General = { UpgradesFromBase = "none" },
     Intel = { VisionRadius = 20 },
     Merge = true,
 }
@@ -66,6 +68,7 @@ UnitBlueprint {
         StorageMass = 80
     },
     Footprint = { MinWaterDepth = 1.5 },
+    General = { UpgradesFromBase = "none" },
     Intel = { VisionRadius = 20 },
     Merge = true, 
 }
@@ -111,6 +114,7 @@ UnitBlueprint {
         StorageMass = 160
     },
     Footprint = { SizeX = 5, SizeZ = 5 },
+    General = { UpgradesFromBase = "none" },
     Intel = { VisionRadius = 20 },
     Merge = true,
 }
@@ -158,6 +162,7 @@ UnitBlueprint {
         StorageMass = 160
     },
     Footprint = { SizeX = 5, SizeZ = 5 },
+    General = { UpgradesFromBase = "none" },
     Intel = { VisionRadius = 20 },
     Merge = true,
 }
@@ -205,6 +210,7 @@ UnitBlueprint {
         StorageMass = 160
     },
     Footprint = { MinWaterDepth = 1.5 },
+    General = { UpgradesFromBase = "none" },
     Intel = { VisionRadius = 20 },
     Merge = true, 
 }
@@ -251,6 +257,7 @@ UnitBlueprint {
         StorageMass = 320
     },
     Footprint = { SizeX = 5, SizeZ = 5 },
+    General = { UpgradesFromBase = "none" },
     Intel = { VisionRadius = 20 },
     Merge = true,  
 }
@@ -297,6 +304,7 @@ UnitBlueprint {
         StorageMass = 320
     },
     Footprint = { SizeX = 5, SizeZ = 5 },
+    General = { UpgradesFromBase = "none" },
     Intel = { VisionRadius = 20 },
     Merge = true,
 }
@@ -343,6 +351,7 @@ UnitBlueprint {
         StorageMass = 320
     },
     Footprint = { MinWaterDepth = 1.5 },
+    General = { UpgradesFromBase = "none" },
     Intel = { VisionRadius = 20 },
     Merge = true,  
 }

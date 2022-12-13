@@ -1,10 +1,14 @@
 Changelog
+# v4 (13.12.2022)
+- Fixed Rhino firing a very slow projectile, added its old particle beam weapon back.
+- Fixed Aeon Galactic Colossus using its tractor beam weapon on all enemy unit types (buildings, experimentals, airborne air units, etc.)
+- Aeon Czar's shield attributes that was added by FAF has been toned down for vanilla damage numbers.
 
 # v3 (12.4.2019)
 - T1 Mass Fabs are buildable by T1 Engineer and ACU again.
 
 # v2 (12.4.2019)
-- Added old veterancy buffs instead of global ones (buffing max health and weapon demage).
+- Added old veterancy buffs instead of global ones (buffing max health and weapon damage).
 - Fixed Aeon Cruiser and Carrier AA Guns.
 - Fixed T2 Torp Launchers firing too many torpedoes.
 - Fixed UEF SAM firing too many rockets.

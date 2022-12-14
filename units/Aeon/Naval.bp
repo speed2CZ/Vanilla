@@ -1768,8 +1768,8 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 750 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 3 }
     },
-    Defense = { ArmorType = "Normal", Health = 3000, MaxHealth = 3000, RegenRate = 0, BuildRate = 1.25 },
-    Economy = { BuildCostEnergy = 60000, BuildCostMass = 10000, BuildTime = 15000 },
+    Defense = { ArmorType = "Normal", Health = 3000, MaxHealth = 3000, RegenRate = 0 },
+    Economy = { BuildCostEnergy = 60000, BuildCostMass = 10000, BuildTime = 15000, BuildRate = 125 },
     Footprint = { SizeX = 2, SizeZ = 5 },
     Intel = { SonarRadius = 90, VisionRadius = 16, WaterVisionRadius = 24 },
     Merge = true,

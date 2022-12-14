@@ -1947,7 +1947,7 @@ UnitBlueprint {
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
     },
     Defense = { ArmorType = "Normal", Health = 8640, MaxHealth = 8640, RegenRate = 0 },
-    Economy = { BuildCostEnergy = 1250000, BuildCostMass = 130000, BuildTime = 75000, BuildRate = 1 },
+    Economy = { BuildCostEnergy = 1250000, BuildCostMass = 130000, BuildTime = 75000, BuildRate = 100 },
     Intel = { VisionRadius = 28 },
     Merge = true,
     Veteran = {

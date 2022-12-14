@@ -1718,22 +1718,7 @@ UnitBlueprint {
         { Add = { VeteranLevel4 = true }, BuffType = "HEALTH", Value = 1875 },
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 1 }
     },
-    Defense = { ArmorType = "Normal", Health = 7500, MaxHealth = 7500, RegenRate = 0.5,
-		Shield = {
-            ImpactEffects = 'AeonShieldHit01',
-            ImpactMesh = '/effects/entities/CzarShieldSection/CzarShieldSection_mesh',
-            ImpactMeshBig = '/effects/entities/CzarShieldSection/CzarShieldSectionBig_mesh',
-            Mesh = '/effects/entities/CzarShield/CzarShield_mesh',
-            RegenAssistMult = 20,
-            ShieldEnergyDrainRechargeTime = 5,
-            ShieldMaxHealth = 2000,
-            ShieldRechargeTime = 90,
-            ShieldRegenRate = 10,
-            ShieldRegenStartTime = 5,
-            ShieldSize = 26,
-            ShieldVerticalOffset = -1.25,
-        }
-	},
+    Defense = { ArmorType = "Normal", Health = 7500, MaxHealth = 7500, RegenRate = 0.5 },
     Economy = {
         BuildCostEnergy = 648000,
         BuildCostMass = 18144,

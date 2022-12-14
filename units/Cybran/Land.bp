@@ -1650,7 +1650,8 @@ UnitBlueprint {
             MaxRadius = 23,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
-            MuzzleVelocity = 12,
+            --FAF blueprint 'overwrites' this with ballistic projectile data, so we need a high velocity value so the Rhino's aim doesn't compensate for a ballistic arc
+            MuzzleVelocity = 150,
             ProjectilesPerOnFire = 1,
             RackBones = {
                 {

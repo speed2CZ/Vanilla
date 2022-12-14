@@ -22,11 +22,11 @@ function ModBlueprints(all_blueprints)
 	local czar = all_blueprints.Unit['uaa0310']
 	if czar then
 		if czar.Defense and czar.Defense.Shield then
-            czar.Defense.Shield = nil
-        end
-		if harb.General and harb.General.ToggleCaps then
-            harb.General.ToggleCaps = nil
-        end
+            		czar.Defense.Shield = nil
+        	end
+		if czar.General and czar.General.ToggleCaps then
+            		czar.General.ToggleCaps = nil
+        	end
 	end
 
     -- Aeon T2 Torp Launcher

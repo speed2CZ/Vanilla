@@ -1569,9 +1569,8 @@ UnitBlueprint {
                 {
                     MuzzleBones = {
                         'Left_Muzzle01',
-                        'Left_Muzzle02',
                     },
-                    RackBone = 'Left_Turret_Barrel02',
+                    RackBone = 'Left_Turret_01',
                 },
             },
             RackFireTogether = false,
@@ -1586,8 +1585,8 @@ UnitBlueprint {
             TargetRestrictDisallow = 'UNTARGETABLE',
             TargetRestrictOnlyAllow = 'TACTICAL,MISSILE',
             TargetType = 'RULEWTT_Projectile',
-            TurretBoneMuzzle = 'Left_Muzzle02',
-            TurretBonePitch = 'Left_Turret01',
+            TurretBoneMuzzle = 'Left_Muzzle01',
+            TurretBonePitch = 'Left_Muzzle01',
             TurretBoneYaw = 'Left_Turret01',
             TurretDualManipulators = false,
             TurretPitch = 0,
@@ -1619,9 +1618,8 @@ UnitBlueprint {
                 {
                     MuzzleBones = {
                         'Right_Muzzle01',
-                        'Right_Muzzle02',
                     },
-                    RackBone = 'Right_Turret_Barrel02',
+                    RackBone = 'Right_Turret
                 },
             },
             RackFireTogether = false,
@@ -1636,8 +1634,8 @@ UnitBlueprint {
             TargetRestrictDisallow = 'UNTARGETABLE',
             TargetRestrictOnlyAllow = 'TACTICAL,MISSILE',
             TargetType = 'RULEWTT_Projectile',
-            TurretBoneMuzzle = 'Right_Muzzle02',
-            TurretBonePitch = 'Right_Turret',
+            TurretBoneMuzzle = 'Right_Muzzle01',
+            TurretBonePitch = 'Right_Muzzle01',
             TurretBoneYaw = 'Right_Turret',
             TurretDualManipulators = false,
             TurretPitch = 0,

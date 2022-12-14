@@ -930,7 +930,13 @@ UnitBlueprint {
     },
     Weapon = {
         {
-            Audio = { },
+            Audio = { 
+				Fire = Sound {
+                    Bank = 'UAAWeapon',
+                    Cue = 'UAA0203_Laser_Lgt',
+                    LodCutoff = 'Weapon_LodCutoff',
+                },
+			},
             AutoInitiateAttackCommand = true,
             BallisticArc = "RULEUBA_None",
             Buffs = {

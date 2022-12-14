@@ -16,6 +16,18 @@ function ModBlueprints(all_blueprints)
         end
         table.removeByValue(harb.Display.Abilities, '<LOC ability_personalshield>Personal Shield')
     end
+	
+	-- Remove shield from T4 Czar
+	-- The blueprint has no description value indicating a personal shield, so we don't need to remove what doesn't exist
+	local czar = all_blueprints.Unit['uaa0310']
+	if czar then
+		if czar.Defense and czar.Defense.Shield then
+            czar.Defense.Shield = nil
+        end
+		if harb.General and harb.General.ToggleCaps then
+            harb.General.ToggleCaps = nil
+        end
+	end
 
     -- Aeon T2 Torp Launcher
     -- Different RackBones

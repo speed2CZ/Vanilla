@@ -1619,7 +1619,7 @@ UnitBlueprint {
                     MuzzleBones = {
                         'Right_Muzzle01',
                     },
-                    RackBone = 'Right_Turret
+                    RackBone = 'Right_Turret'
                 },
             },
             RackFireTogether = false,

@@ -29,7 +29,7 @@ ProjectileBlueprint {
     Economy = {
         BuildCostEnergy = 84000,
         BuildCostMass = 4000,
-        BuildTime = 240,
+        BuildTime = 24000,
     },
     General = {
         Category = 'Defense',

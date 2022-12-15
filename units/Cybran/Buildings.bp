@@ -823,7 +823,7 @@ UnitBlueprint {
         { Add = { VeteranLevel5 = true }, BuffType = "HEALTHREGENRATE", Value = 2 }
     },
     Defense = { ArmorType = "Normal", Health = 1500, MaxHealth = 1500, RegenRate = 0 },
-    Economy = { BuildCostEnergy = 5100, BuildCostMass = 850, BuildTime = 850, BuildRate = 1 },
+    Economy = { BuildCostEnergy = 5100, BuildCostMass = 850, BuildTime = 850, BuildRate = 25 },
     Footprint = { SizeX = 1, SizeZ = 1 },
     Intel = { VisionRadius = 24 },
     Merge = true,
@@ -2128,9 +2128,7 @@ UnitBlueprint {
 UnitBlueprint {
     BlueprintId = "urb4302",
     Defense = { ArmorType = "Normal", Health = 4000, MaxHealth = 4000, RegenRate = 0 },
-    Economy = { BuildCostEnergy = 240000, BuildCostMass = 21000, BuildTime = 9000, BuildRate = 1 },
-    Footprint = { SizeX = 2, SizeZ = 2 },
-    Intel = { VisionRadius = 20 },
+    Economy = { BuildCostEnergy = 240000, BuildCostMass = 21000, BuildTime = 9000, BuildRate = 100 },
     Merge = true,
     Weapon = {
         {

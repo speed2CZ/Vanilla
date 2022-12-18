@@ -16,6 +16,18 @@ function ModBlueprints(all_blueprints)
         end
         table.removeByValue(harb.Display.Abilities, '<LOC ability_personalshield>Personal Shield')
     end
+	
+	-- Remove shield from T4 Czar
+	-- The blueprint has no description value indicating a personal shield, so we don't need to remove what doesn't exist
+	local czar = all_blueprints.Unit['uaa0310']
+	if czar then
+		if czar.Defense and czar.Defense.Shield then
+            czar.Defense.Shield = nil
+        end
+		if czar.General and czar.General.ToggleCaps then
+            czar.General.ToggleCaps = nil
+        end
+	end
 
     -- Aeon T2 Torp Launcher
     -- Different RackBones
@@ -79,6 +91,36 @@ function ModBlueprints(all_blueprints)
             { MuzzleBones = { "Turret_Muzzle_Right03" }, RackBone = "Turret_Barrel" }
         }
     end
+	
+	--Support Factory build rate adjustments for coop missions
+	for id,bp in all_blueprints.Unit do
+		-- id = init ID. example: url0103
+        -- bp = the whole content of the file url0103_unit.bp
+		if bp.Categories then
+			-- create an array where we can save the unit categories for easier access
+            local Categories = {}
+            -- loop over unit categories
+            for _, cat in bp.Categories do
+                -- example: Categories[TECH1] = true -> Categories.TECH1 == true
+                Categories[cat] = true
+            end
+			--create an array for factory types
+			local FactoryTypes = {Categories.AIR, Categories.LAND, Categories.NAVAL}
+			--loop through support factories, based layer type
+			if (Categories.TECH2 or Categories.TECH3) and Categories.SUPPORTFACTORY then
+				for i = 1, 3 do
+					if FactoryTypes[i] then
+						if Categories.TECH2 then
+							bp.Economy.BuildRate = 20
+						elseif Categories.TECH3 then
+							bp.Economy.BuildRate = 30
+						end
+					end
+				end
+			LOG('processing unit >>>'..id..'<<< ('..(bp.Description or 'Unknown')..') adjusting build rate to: '..bp.Economy.BuildRate)
+			end
+		end		
+	end			
 
     -- now we loop over every UNIT blueprint
     for id,bp in all_blueprints.Unit do

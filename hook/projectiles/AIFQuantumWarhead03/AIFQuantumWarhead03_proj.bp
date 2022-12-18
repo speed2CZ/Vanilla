@@ -44,7 +44,7 @@ ProjectileBlueprint {
     Economy = {
         BuildCostEnergy = 2000000,
         BuildCostMass = 200000,
-        BuildTime = 5000,
+        BuildTime = 500000,
     },
     General = {
         Category = 'Missile',
@@ -72,6 +72,7 @@ ProjectileBlueprint {
         RotationalVelocity = 0,
         RotationalVelocityRange = 0,
         TrackTarget = true,
+		TrackTargetGround = true,
         TurnRate = 0,
         UseGravity = false,
         VelocityAlign = true,

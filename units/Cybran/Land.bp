@@ -2175,7 +2175,7 @@ UnitBlueprint {
     },
 }
 
-
+--T3 sACU
 UnitBlueprint {
     BlueprintId = "url0301",
     Buffs = {
@@ -2682,7 +2682,7 @@ UnitBlueprint {
             BuffType = "STUN",
             Duration = 2,
             Radius = 10,
-            TargetAllow = "MOBILE"
+            TargetAllow = "MOBILE",
 			TargetDisllow = "EXPERIMENTAL"	--Stun on the T4 Aeon GC causes bugs on its tractor beam weapon 
         }
     },

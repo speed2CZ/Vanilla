@@ -31,7 +31,7 @@ ProjectileBlueprint {
         BuildCostMass = 4000,
         BuildTime = 24000,
     },
-	DoNotCollideList = {
+	  DoNotCollideList = {
         'AIR',
     },
     General = {

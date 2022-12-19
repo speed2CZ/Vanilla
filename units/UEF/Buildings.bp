@@ -2292,7 +2292,7 @@ UnitBlueprint {
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 90,
             ProjectileId = "/projectiles/TIMMissileIntercerptor01/TIMMissileIntercerptor01_proj.bp",
-			ProjectilesPerOnFire = 1,
+			      ProjectilesPerOnFire = 1,
             RackBones = {
                 { 
 					MuzzleBones = {
@@ -2314,7 +2314,7 @@ UnitBlueprint {
             TargetType = "RULEWTT_Projectile",
             Turreted = false,
             WeaponCategory = "Defense",
-			-- Weapon unpacking causes model twists, and also an unintended delays between each shot.--
+			      -- Weapon unpacking causes model twists, and also an unintended delays between each shot.--
             --WeaponRepackTimeout = 7,
             --WeaponUnpackAnimation = "/units/ueb4302/ueb4302_Aopen.sca",
             --WeaponUnpackAnimationRate = 7.2,

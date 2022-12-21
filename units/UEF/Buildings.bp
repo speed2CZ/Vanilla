@@ -1088,16 +1088,7 @@ UnitBlueprint {
             RackSlavedToTurret = false,
             RateOfFire = 2,
             TargetCheckInterval = 0.25,
-            TargetPriorities = {
-                "SPECIALHIGHPRI",
-                "COMMAND",
-                "MOBILE",
-                "STRUCTURE DEFENSE",
-                "SPECIALLOWPRI",
-                "ALLUNITS"
-            },
             TargetRestrictDisallow = "UNTARGETABLE",
-            --TrackingRadius = 36,
             TurretBoneMuzzle = "Turret_Muzzle",
             TurretBonePitch = "Turret_Barrel",
             TurretBoneYaw = "Turret",
@@ -1176,17 +1167,7 @@ UnitBlueprint {
             RackSlavedToTurret = false,
             RateOfFire = 1.5,
             TargetCheckInterval = 0.3,
-            TargetPriorities = {
-                "SPECIALHIGHPRI",
-                "AIR MOBILE BOMBER",
-                "AIR MOBILE GROUNDATTACK",
-                "AIR MOBILE TRANSPORTATION",
-                "AIR MOBILE",
-                "SPECIALLOWPRI",
-                "ALLUNITS"
-            },
             TargetRestrictDisallow = "UNTARGETABLE",
-            --TrackingRadius = 62,
             TurretBoneMuzzle = "Turret_Muzzle_01",
             TurretBonePitch = "Turret_Barrel",
             TurretBoneYaw = "Turret",
@@ -1265,12 +1246,6 @@ UnitBlueprint {
             RackSlavedToTurret = false,
             RateOfFire = 3,
             TargetCheckInterval = 0.16,
-            TargetPriorities = {
-                "SPECIALHIGHPRI",
-                "COMMAND",
-                "SPECIALLOWPRI",
-                "ALLUNITS"
-            },
             TargetRestrictDisallow = "UNTARGETABLE",
             TurretDualManipulators = false,
             TurretPitch = 0,
@@ -1346,14 +1321,6 @@ UnitBlueprint {
             RackSlavedToTurret = false,
             RateOfFire = 0.5,
             TargetCheckInterval = 1,
-            TargetPriorities = {
-                "SPECIALHIGHPRI",
-                "COMMAND",
-                "MOBILE",
-                "STRUCTURE DEFENSE",
-                "SPECIALLOWPRI",
-                "ALLUNITS"
-            },
             TargetRestrictDisallow = "UNTARGETABLE, HOVER",
             TurretBoneMuzzle = "Turret_Muzzle",
             TurretBonePitch = "Turret",
@@ -1439,17 +1406,7 @@ UnitBlueprint {
             SalvoShotDelay = 0.35,
             SalvoSize = 4,
             TargetCheckInterval = 0.3,
-            TargetPriorities = {
-                "SPECIALHIGHPRI",
-                "AIR MOBILE BOMBER",
-                "AIR MOBILE GROUNDATTACK",
-                "AIR MOBILE TRANSPORTATION",
-                "AIR MOBILE",
-                "SPECIALLOWPRI",
-                "ALLUNITS"
-            },
             TargetRestrictDisallow = "UNTARGETABLE",
-            --TrackingRadius = 62,
             TurretBoneMuzzle = "Turret_Barrel",
             TurretBonePitch = "Turret_Barrel",
             TurretBoneYaw = "Turret",
@@ -1533,16 +1490,7 @@ UnitBlueprint {
             SalvoShotDelay = 0.2,
             SalvoSize = 4,
             TargetCheckInterval = 0.25,
-            TargetPriorities = {
-                "SPECIALHIGHPRI",
-                "COMMAND",
-                "MOBILE",
-                "STRUCTURE DEFENSE",
-                "SPECIALLOWPRI",
-                "ALLUNITS"
-            },
             TargetRestrictDisallow = "UNTARGETABLE, HOVER",
-            --TrackingRadius = 58,
             TurretBoneMuzzle = "Turret_Muzzle01",
             TurretBonePitch = "Turret",
             TurretBoneYaw = "Turret",
@@ -1638,14 +1586,6 @@ UnitBlueprint {
             RackSlavedToTurret = false,
             RateOfFire = 0.6,
             TargetCheckInterval = 1,
-            TargetPriorities = {
-                'SPECIALHIGHPRI',
-                'COMMAND',
-                'MOBILE',
-                'STRUCTURE DEFENSE',
-                'SPECIALLOWPRI',
-                'ALLUNITS',
-            },
             TargetRestrictDisallow = 'UNTARGETABLE',
             TurretBoneMuzzle = 'Turret_Muzzle02',
             TurretBonePitch = 'Turret_Barrel',
@@ -1731,13 +1671,6 @@ UnitBlueprint {
             RateOfFire = 0.0625,
             RenderFireClock = true,
             TargetCheckInterval = 8,
-            TargetPriorities = {
-                "SPECIALHIGHPRI",
-                "COMMAND",
-                "STRUCTURE",
-                "SPECIALLOWPRI",
-                "ALLUNITS"
-            },
             TargetRestrictDisallow = "UNTARGETABLE",
             TurretBoneMuzzle = "Turret_Muzzle",
             TurretBonePitch = "Barrel",
@@ -1819,12 +1752,6 @@ UnitBlueprint {
             RateOfFire = 2,
             RenderFireClock = true,
             TargetCheckInterval = 5,
-            TargetPriorities = {
-                "SPECIALHIGHPRI",
-                "COMMAND",
-                "SPECIALLOWPRI",
-                "ALLUNITS"
-            },
             TargetRestrictDisallow = "UNTARGETABLE",
             TurretBoneMuzzle = "Turret_Muzzle",
             TurretBonePitch = "Turret_Barrel",
@@ -1907,17 +1834,7 @@ UnitBlueprint {
             RackSlavedToTurret = false,
             RateOfFire = 3,
             TargetCheckInterval = 0.3,
-            TargetPriorities = {
-                "SPECIALHIGHPRI",
-                "AIR MOBILE BOMBER",
-                "AIR MOBILE GROUNDATTACK",
-                "AIR MOBILE TRANSPORTATION",
-                "AIR MOBILE",
-                "SPECIALLOWPRI",
-                "ALLUNITS"
-            },
             TargetRestrictDisallow = "UNTARGETABLE",
-            --TrackingRadius = 84,
             TurretBoneMuzzle = "Turret_Barrel",
             TurretBonePitch = "Turret_Barrel",
             TurretBoneYaw = "Turret",
@@ -1959,7 +1876,6 @@ UnitBlueprint {
     },
     Weapon = {
         {
-            Audio = { },
             BallisticArc = "RULEUBA_None",
             CollideFriendly = false,
             CountedProjectile = true,
@@ -1991,7 +1907,14 @@ UnitBlueprint {
             NukeWeapon = true,
             ProjectileId = "/projectiles/TIFMissileNuke01/TIFMissileNuke01_proj.bp",
             ProjectilesPerOnFire = 1,
-            RackBones = { { MuzzleBones = { "Muzzle" }, RackBone = "Muzzle" } },
+            RackBones = {
+				{
+					MuzzleBones =  {
+							"Muzzle" 
+					},
+					RackBone = "Muzzle"
+				} 
+			},
             RackFireTogether = false,
             RackRecoilDistance = 0,
             RackReloadTimeout = 0,
@@ -2000,7 +1923,6 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
             RateOfFire = 1,
-            TargetCheckInterval = 0.5,
             TargetRestrictDisallow = "UNTARGETABLE",
             TurretDualManipulators = false,
             TurretPitch = 0,
@@ -2083,13 +2005,6 @@ UnitBlueprint {
             RateOfFire = 0.125,
             RenderFireClock = true,
             TargetCheckInterval = 4,
-            TargetPriorities = {
-                "SPECIALHIGHPRI",
-                "COMMAND",
-                "STRUCTURE",
-                "SPECIALLOWPRI",
-                "ALLUNITS"
-            },
             TargetRestrictDisallow = "UNTARGETABLE",
             TurretBoneMuzzle = "Turret_Muzzle",
             TurretBonePitch = "Turret_Barrel_B01",
@@ -2259,7 +2174,6 @@ UnitBlueprint {
             TargetRestrictDisallow = "UNTARGETABLE",
             TargetRestrictOnlyAllow = "TACTICAL MISSILE",
             TargetType = "RULEWTT_Projectile",
-            --TrackingRadius = 55,
             TurretBoneMuzzle = "Turret_Muzzle",
             TurretBonePitch = "Turret_Barrel",
             TurretBoneYaw = "Turret",
@@ -2361,7 +2275,6 @@ UnitBlueprint {
     Merge = true,
     Weapon = {
         {
-            AlwaysRecheckTarget = false,
             BallisticArc = "RULEUBA_None",
             CollideFriendly = false,
             CountedProjectile = true,
@@ -2377,9 +2290,9 @@ UnitBlueprint {
             MaxRadius = 75,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
-            MuzzleVelocity = 60,
+            MuzzleVelocity = 90,
             ProjectileId = "/projectiles/TIMMissileIntercerptor01/TIMMissileIntercerptor01_proj.bp",
-			ProjectilesPerOnFire = 1,
+			      ProjectilesPerOnFire = 1,
             RackBones = {
                 { 
 					MuzzleBones = {
@@ -2395,17 +2308,17 @@ UnitBlueprint {
             RackSalvoReloadTime = 0,
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
-            RateOfFire = 1,
-            TargetCheckInterval = 0.1,
+            RateOfFire = 0.6,
             TargetRestrictDisallow = "UNTARGETABLE",
             TargetRestrictOnlyAllow = "STRATEGIC MISSILE",
             TargetType = "RULEWTT_Projectile",
             Turreted = false,
             WeaponCategory = "Defense",
-            WeaponRepackTimeout = 7,
-            WeaponUnpackAnimation = "/units/ueb4302/ueb4302_Aopen.sca",
-            WeaponUnpackAnimationRate = 7.2,
-            WeaponUnpacks = true
+			      -- Weapon unpacking causes model twists, and also an unintended delays between each shot.--
+            --WeaponRepackTimeout = 7,
+            --WeaponUnpackAnimation = "/units/ueb4302/ueb4302_Aopen.sca",
+            --WeaponUnpackAnimationRate = 7.2,
+            --WeaponUnpacks = false
         },
     },
 }

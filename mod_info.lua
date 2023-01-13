@@ -1,5 +1,5 @@
 name = "Vanilla Supreme Commander - Balance Mod"
-uid = "5bd6e1eb-1f18-4bd3-8fff-7d097ed11042"
+uid = "7abe8612-120a-43e3-83a2-9bc98a2bc3f7"
 version = 4
 copyright = "speed2 - Everyone caught stealing my superior code will get banished from time and space. FOREVER."
 description = "Brings the unit balance from the original Supreme Commander game."

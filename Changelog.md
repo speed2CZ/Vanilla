@@ -1,6 +1,6 @@
-Changelog
+# Changelog
 
-# v4 (12.4.2019)
+## v4 (13.1.2023)
 - Fixed Rhino firing a very slow projectile added by FAF, added its old particle beam weapon back.
 - Fixed Aeon Galactic Colossus using its tractor beam weapon on all enemy unit types (buildings, experimentals, airborne air units, etc.)
 - Removed Aeon Czar's shield.
@@ -16,10 +16,13 @@ Changelog
 - Fixed Cybran Cruiser's main turret's projectile not reaching targets at the edge of its range.
 - Default target priorities have been reverted to FAF ones.
 
-# v3 (12.4.2019)
+### Contributors
+- Grandpa Sawyer (Dhomie)
+
+## v3 (12.4.2019)
 - T1 Mass Fabs are buildable by T1 Engineer and ACU again.
 
-# v2 (12.4.2019)
+## v2 (12.4.2019)
 - Added old veterancy buffs instead of global ones (buffing max health and weapon demage).
 - Fixed Aeon Cruiser and Carrier AA Guns.
 - Fixed T2 Torp Launchers firing too many torpedoes.
@@ -31,5 +34,5 @@ Changelog
 - Removed Categories tables from bps since they don't merge and vanilla ones are bit outdated.
 - Enabled rendering reload progress for static T2 Arty.
 
-# v1 (11.4.2019)
+## v1 (11.4.2019)
 - First release. All units bps added from vanilla game.

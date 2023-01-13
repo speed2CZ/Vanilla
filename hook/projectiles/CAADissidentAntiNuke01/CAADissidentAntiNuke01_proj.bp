@@ -29,7 +29,10 @@ ProjectileBlueprint {
     Economy = {
         BuildCostEnergy = 84000,
         BuildCostMass = 4000,
-        BuildTime = 240,
+        BuildTime = 24000,
+    },
+	  DoNotCollideList = {
+        'AIR',
     },
     General = {
         Category = 'Defense',
@@ -40,10 +43,10 @@ ProjectileBlueprint {
         HelpText = 'CYBRAN Anti Nuclear Missile',
     },
     Physics = {
-        Acceleration = 60,
+        Acceleration = 30,
         DestroyOnWater = false,
-        LeadTarget = false,
-        MaxSpeed = 60,
+        LeadTarget = true,
+        MaxSpeed = 90,
         TrackTarget = true,
         TurnRate = 360,
         UseGravity = false,

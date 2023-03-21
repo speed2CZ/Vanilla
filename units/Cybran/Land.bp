@@ -1657,7 +1657,7 @@ UnitBlueprint {
         MinSpeedPercent = 0,
         MotionType = 'RULEUMT_Amphibious',
         RotateOnSpot = true,
-        TurnRadius = 25,
+        TurnRadius = 0,	--was 25, set to 0 because the Wagner is atrocious at turning inside cluttered bases, they get stuck on EVERYTHING
         TurnRate = 25,	--Was 23, increased due to cluttering issues with structures
     },
     Veteran = {

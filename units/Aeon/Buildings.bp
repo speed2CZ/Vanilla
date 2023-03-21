@@ -77,29 +77,6 @@ UnitBlueprint {
 UnitBlueprint {
     BlueprintId = "uab0201",
     Defense = { ArmorType = "Normal", Health = 8400, MaxHealth = 8400, RegenRate = 0 },
-    Display = {
-        AnimationUpgrade = '/units/zab9501/zab9501_aopen.sca',
-        Mesh = {
-            LODs = {
-                {
-                    AlbedoName = '/units/zab9501/zab9501_albedo.dds',
-                    LODCutoff = 200,
-                    MeshName = '/units/zab9501/zab9501_LOD0.scm',
-                    NormalsName = '/units/zab9501/zab9501_normalsts.dds',
-                    ShaderName = 'Unit',
-                    SpecularName = '/units/zab9501/zab9501_specteam.dds',
-                },
-                {
-                    AlbedoName = '/units/zab9501/zab9501_lod1_albedo.dds',
-                    LODCutoff = 500,
-                    MeshName = '/units/zab9501/zab9501_LOD1.scm',
-                    NormalsName = '/units/zab9501/zab9501_lod1_normalsts.dds',
-                    ShaderName = 'Unit',
-                    SpecularName = '/units/zab9501/zab9501_lod1_specteam.dds',
-                },
-            },
-        },   
-    },
     Economy = {
         BuildCostEnergy = 7600,
         BuildCostMass = 950,
@@ -123,29 +100,6 @@ UnitBlueprint {
 UnitBlueprint {
     BlueprintId = "uab0202",
     Defense = { ArmorType = "Normal", Health = 8400, MaxHealth = 8400, RegenRate = 0 },
-    Display = {
-        AnimationUpgrade = '/units/zab9502/zab9502_aupgrade.sca',
-        Mesh = {
-            LODs = {
-                {
-                    AlbedoName = '/units/zab9502/zab9502_albedo.dds',
-                    LODCutoff = 200,
-                    MeshName = '/units/zab9502/zab9502_LOD0.scm',
-                    NormalsName = '/units/zab9502/zab9502_normalsts.dds',
-                    ShaderName = 'Unit',
-                    SpecularName = '/units/zab9502/zab9502_specteam.dds',
-                },
-                {
-                    AlbedoName = '/units/zab9502/zab9502_lod1_albedo.dds',
-                    LODCutoff = 500,
-                    MeshName = '/units/zab9502/zab9502_LOD1.scm',
-                    NormalsName = '/units/zab9502/zab9502_lod1_normalsts.dds',
-                    ShaderName = 'Unit',
-                    SpecularName = '/units/zab9502/zab9502_lod1_specteam.dds',
-                },
-            },
-        },   
-    },
     Economy = {
         BuildCostEnergy = 19200,
         BuildCostMass = 720,
@@ -171,29 +125,6 @@ UnitBlueprint {
 UnitBlueprint {
     BlueprintId = "uab0203",
     Defense = { ArmorType = "Normal", Health = 17000, MaxHealth = 17000, RegenRate = 0 },
-    Display = {
-        AnimationUpgrade = '/units/zab9503/zab9503_aopen.sca',
-        Mesh = {
-            LODs = {
-                {
-                    AlbedoName = '/units/zab9503/zab9503_albedo.dds',
-                    LODCutoff = 200,
-                    MeshName = '/units/zab9503/zab9503_LOD0.scm',
-                    NormalsName = '/units/zab9503/zab9503_normalsts.dds',
-                    ShaderName = 'Unit',
-                    SpecularName = '/units/zab9503/zab9503_specteam.dds',
-                },
-                {
-                    AlbedoName = '/units/zab9503/zab9503_lod1_albedo.dds',
-                    LODCutoff = 600,
-                    MeshName = '/units/zab9503/zab9503_LOD1.scm',
-                    NormalsName = '/units/zab9503/zab9503_lod1_normalsts.dds',
-                    ShaderName = 'Unit',
-                    SpecularName = '/units/zab9503/zab9503_lod1_specteam.dds',
-                },
-            },
-        },   
-    },
     Economy = {
         BuildCostEnergy = 7600,
         BuildCostMass = 950,
@@ -219,28 +150,6 @@ UnitBlueprint {
 UnitBlueprint {
     BlueprintId = "uab0301",
     Defense = { ArmorType = "Normal", Health = 20000, MaxHealth = 20000, RegenRate = 0 },
-    Display = {
-        Mesh = {
-            LODs = {
-                {
-                    AlbedoName = '/units/zab9601/zab9601_albedo.dds',
-                    LODCutoff = 200,
-                    MeshName = '/units/zab9601/zab9601_LOD0.scm',
-                    NormalsName = '/units/zab9601/zab9601_normalsts.dds',
-                    ShaderName = 'Unit',
-                    SpecularName = '/units/zab9601/zab9601_specteam.dds',
-                },
-                {
-                    AlbedoName = '/units/zab9601/zab9601_lod1_albedo.dds',
-                    LODCutoff = 500,
-                    MeshName = '/units/zab9601/zab9601_LOD1.scm',
-                    NormalsName = '/units/zab9601/zab9601_lod1_normalsts.dds',
-                    ShaderName = 'Unit',
-                    SpecularName = '/units/zab9601/zab9601_lod1_specteam.dds',
-                },
-            },
-        },   
-    },
     Economy = {
         BuildCostEnergy = 23520,
         BuildCostMass = 3360,
@@ -266,28 +175,6 @@ UnitBlueprint {
 UnitBlueprint {
     BlueprintId = "uab0302",
     Defense = { ArmorType = "Normal", Health = 20000, MaxHealth = 20000, RegenRate = 0 },
-    Display = {
-        Mesh = {
-            LODs = {
-                {
-                    AlbedoName = '/units/zab9602/zab9602_albedo.dds',
-                    LODCutoff = 200,
-                    MeshName = '/units/zab9602/zab9602_LOD0.scm',
-                    NormalsName = '/units/zab9602/zab9602_normalsts.dds',
-                    ShaderName = 'Unit',
-                    SpecularName = '/units/zab9602/zab9602_specteam.dds',
-                },
-                {
-                    AlbedoName = '/units/zab9602/zab9602_lod1_albedo.dds',
-                    LODCutoff = 500,
-                    MeshName = '/units/zab9602/zab9602_LOD1.scm',
-                    NormalsName = '/units/zab9602/zab9602_lod1_normalsts.dds',
-                    ShaderName = 'Unit',
-                    SpecularName = '/units/zab9602/zab9602_lod1_specteam.dds',
-                },
-            },
-        },   
-    },
     Economy = {
         BuildCostEnergy = 35000,
         BuildCostMass = 2100,
@@ -313,28 +200,6 @@ UnitBlueprint {
 UnitBlueprint {
     BlueprintId = "uab0303",
     Defense = { ArmorType = "Normal", Health = 37500, MaxHealth = 37500, RegenRate = 0 },
-    Display = {
-        Mesh = {
-            LODs = {
-                {
-                    AlbedoName = '/units/zab9603/zab9603_albedo.dds',
-                    LODCutoff = 200,
-                    MeshName = '/units/zab9603/zab9603_LOD0.scm',
-                    NormalsName = '/units/zab9603/zab9603_normalsts.dds',
-                    ShaderName = 'Unit',
-                    SpecularName = '/units/zab9603/zab9603_specteam.dds',
-                },
-                {
-                    AlbedoName = '/units/zab9603/zab9603_lod1_albedo.dds',
-                    LODCutoff = 500,
-                    MeshName = '/units/zab9603/zab9603_LOD1.scm',
-                    NormalsName = '/units/zab9603/zab9603_lod1_normalsts.dds',
-                    ShaderName = 'Unit',
-                    SpecularName = '/units/zab9603/zab9603_lod1_specteam.dds',
-                },
-            },
-        },   
-    },
     Economy = {
         BuildCostEnergy = 22400,
         BuildCostMass = 3080,
